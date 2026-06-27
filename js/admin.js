@@ -1,4 +1,4 @@
-var API = 'http://localhost:5000/api';
+var API = window.location.hostname === 'localhost' ? 'http://localhost:5000/api' : (window.location.origin + '/api');
 var recipes = [];
 var currentPage = 'list';
 var editingId = null;

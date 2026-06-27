@@ -5,7 +5,7 @@ var modalBody = document.querySelector('.modal-body');
 var closeModal = document.querySelector('.close');
 var searchInput = document.querySelector('.search-box input');
 var searchButton = document.querySelector('.search-box button');
-var API = 'http://localhost:5000/api';
+var API = window.location.hostname === 'localhost' ? 'http://localhost:5000/api' : (window.location.origin + '/api');
 var STORAGE_KEY = 'caipu_recipes_data';
 
 function recipeImgUrl(name) {

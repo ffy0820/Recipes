@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "api/recipes/[id].py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "**/*.{html,css,js,json,png,jpg,jpeg,gif,svg,woff,woff2,ttf,eot}",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/recipes/([0-9]+)",
+      "dest": "/api/recipes/[id].py?id=$1"
+    },
+    {
+      "src": "/api/recipes",
+      "dest": "/api/recipes.py"
+    },
+    {
+      "src": "/api/login",
+      "dest": "/api/login.py"
+    },
+    {
+      "src": "/api/export",
+      "dest": "/api/export.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
