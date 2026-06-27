@@ -5,24 +5,30 @@ var modalBody = document.querySelector('.modal-body');
 var closeModal = document.querySelector('.close');
 var searchInput = document.querySelector('.search-box input');
 var searchButton = document.querySelector('.search-box button');
+var API = 'http://localhost:5000/api';
 var STORAGE_KEY = 'caipu_recipes_data';
 
-async function loadRecipes() {
-    var stored = localStorage.getItem(STORAGE_KEY);
-    if (stored) {
-        try {
-            recipes = JSON.parse(stored);
+function loadRecipes() {
+    fetch(API + '/recipes')
+        .then(function(res) { return res.json(); })
+        .then(function(data) {
+            recipes = data;
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
             displayRecipes(recipes);
-            return;
-        } catch (e) { localStorage.removeItem(STORAGE_KEY); }
-    }
-    try {
-        var response = await fetch('data/recipes.json');
-        recipes = await response.json();
-        displayRecipes(recipes);
-    } catch (error) {
-        recipeGrid.innerHTML = '<p class="error-message">加载菜谱数据失败，请刷新页面重试。</p>';
-    }
+        })
+        .catch(function() {
+            var stored = localStorage.getItem(STORAGE_KEY);
+            if (stored) {
+                try { recipes = JSON.parse(stored); displayRecipes(recipes); return; }
+                catch (e) { localStorage.removeItem(STORAGE_KEY); }
+            }
+            fetch('data/recipes.json').then(function(res) { return res.json(); }).then(function(data) {
+                recipes = data;
+                displayRecipes(recipes);
+            }).catch(function() {
+                recipeGrid.innerHTML = '<p class="error-message">加载菜谱数据失败，请刷新页面重试。</p>';
+            });
+        });
 }
 
 function displayRecipes(recipesToDisplay) {

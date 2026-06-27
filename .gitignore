@@ -10,3 +10,8 @@ Desktop.ini
 .idea/
 *.swp
 *.swo
+
+# Database
+recipes.db
+__pycache__/
+*.pyc
