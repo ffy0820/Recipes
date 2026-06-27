@@ -48,6 +48,14 @@ function displayRecipes(recipesToDisplay) {
                     <span><i class="fas fa-signal"></i> ${recipe.difficulty}</span>
                     <span><i class="fas fa-users"></i> ${recipe.servings}</span>
                 </div>
+                ${recipe.nutrition ? `
+                <div class="recipe-nutrition">
+                    <span class="nutrition-tag cal"><i class="fas fa-fire"></i> ${recipe.nutrition.calories}kcal</span>
+                    <span class="nutrition-tag carb"><i class="fas fa-bread-slice"></i> ${recipe.nutrition.carbs}g</span>
+                    <span class="nutrition-tag protein"><i class="fas fa-drumstick-bite"></i> ${recipe.nutrition.protein}g</span>
+                    <span class="nutrition-tag fat"><i class="fas fa-oil-can"></i> ${recipe.nutrition.fat}g</span>
+                </div>
+                ` : ''}
             </div>
         `;
         
@@ -90,6 +98,30 @@ function openRecipeDetail(recipe) {
                         <div class="stat-value">${recipe.servings}</div>
                     </div>
                 </div>
+                
+                ${recipe.nutrition ? `
+                <div class="recipe-section nutrition-section">
+                    <h3><i class="fas fa-chart-pie"></i> 营养成分（每100克）</h3>
+                    <div class="nutrition-grid">
+                        <div class="nutrition-item calories">
+                            <div class="nutrition-value">${recipe.nutrition.calories}</div>
+                            <div class="nutrition-label">千卡(kcal)</div>
+                        </div>
+                        <div class="nutrition-item carbs">
+                            <div class="nutrition-value">${recipe.nutrition.carbs}<span>g</span></div>
+                            <div class="nutrition-label">碳水化合物</div>
+                        </div>
+                        <div class="nutrition-item protein">
+                            <div class="nutrition-value">${recipe.nutrition.protein}<span>g</span></div>
+                            <div class="nutrition-label">蛋白质</div>
+                        </div>
+                        <div class="nutrition-item fat">
+                            <div class="nutrition-value">${recipe.nutrition.fat}<span>g</span></div>
+                            <div class="nutrition-label">脂肪</div>
+                        </div>
+                    </div>
+                </div>
+                ` : ''}
                 
                 <div class="recipe-section">
                     <h3><i class="fas fa-carrot"></i> 食材清单</h3>

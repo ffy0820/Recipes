@@ -364,6 +364,107 @@ img {
     color: var(--primary-color);
 }
 
+/* 卡片营养标签 */
+.recipe-nutrition {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.nutrition-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.nutrition-tag.cal {
+    background-color: #fff3e0;
+    color: #ff9800;
+}
+
+.nutrition-tag.carbs {
+    background-color: #e3f2fd;
+    color: #2196f3;
+}
+
+.nutrition-tag.protein {
+    background-color: #fce4ec;
+    color: #e91e63;
+}
+
+.nutrition-tag.fat {
+    background-color: #f3e5f5;
+    color: #9c27b0;
+}
+
+.nutrition-tag i {
+    font-size: 10px;
+}
+
+/* 详情页营养成分 */
+.nutrition-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.nutrition-section h3 {
+    color: white !important;
+    border-bottom-color: rgba(255,255,255,0.3) !important;
+}
+
+.nutrition-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.nutrition-item {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 15px 10px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.nutrition-value {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    line-height: 1.2;
+}
+
+.nutrition-value span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nutrition-label {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 5px;
+}
+
+.nutrition-item.calories .nutrition-value { color: #ffcc80; }
+.nutrition-item.carbs .nutrition-value { color: #81d4fa; }
+.nutrition-item.protein .nutrition-value { color: #f48fb1; }
+.nutrition-item.fat .nutrition-value { color: #ce93d8; }
+
+@media (max-width: 768px) {
+    .nutrition-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 /* 关于我们 */
 .about {
     padding: 80px 0;

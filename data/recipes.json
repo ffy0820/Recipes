@@ -5,28 +5,83 @@
     "category": "家常菜",
     "description": "番茄炒蛋是一道非常经典的家常菜，酸甜可口，营养丰富，老少皆宜。",
     "ingredients": [
-      {"name": "番茄", "amount": "2个", "weight": "300克"},
-      {"name": "鸡蛋", "amount": "3个", "weight": "150克"}
+      {
+        "name": "番茄",
+        "amount": "2个",
+        "weight": "300克"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": "3个",
+        "weight": "150克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "糖", "amount": "1茶勺", "weight": "5克"},
-      {"name": "葱花", "amount": "适量", "weight": "10克"}
+      {
+        "name": "食用油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "糖",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "葱花",
+        "amount": "适量",
+        "weight": "10克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "番茄洗净，切成小块备用。"},
-      {"step": 2, "description": "鸡蛋打入碗中，加入少许盐，用筷子打散均匀。"},
-      {"step": 3, "description": "锅中倒入2汤勺食用油，烧至七成热。"},
-      {"step": 4, "description": "倒入蛋液，用铲子快速翻炒至凝固，盛出备用。"},
-      {"step": 5, "description": "锅中留少许底油，放入番茄块翻炒至出汁。"},
-      {"step": 6, "description": "加入1茶勺糖和适量盐调味，继续翻炒均匀。"},
-      {"step": 7, "description": "倒入炒好的鸡蛋，翻炒均匀，撒上葱花即可出锅。"}
+      {
+        "step": 1,
+        "description": "番茄洗净，切成小块备用。"
+      },
+      {
+        "step": 2,
+        "description": "鸡蛋打入碗中，加入少许盐，用筷子打散均匀。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入2汤勺食用油，烧至七成热。"
+      },
+      {
+        "step": 4,
+        "description": "倒入蛋液，用铲子快速翻炒至凝固，盛出备用。"
+      },
+      {
+        "step": 5,
+        "description": "锅中留少许底油，放入番茄块翻炒至出汁。"
+      },
+      {
+        "step": 6,
+        "description": "加入1茶勺糖和适量盐调味，继续翻炒均匀。"
+      },
+      {
+        "step": 7,
+        "description": "倒入炒好的鸡蛋，翻炒均匀，撒上葱花即可出锅。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["番茄要选择熟透的，这样炒出来更出汁。", "炒鸡蛋时油温要高，这样鸡蛋更蓬松。", "糖可以中和番茄的酸味，根据个人口味调整用量。"]
+    "tips": [
+      "番茄要选择熟透的，这样炒出来更出汁。",
+      "炒鸡蛋时油温要高，这样鸡蛋更蓬松。",
+      "糖可以中和番茄的酸味，根据个人口味调整用量。"
+    ],
+    "nutrition": {
+      "calories": 80,
+      "protein": 5.0,
+      "fat": 5.0,
+      "carbs": 4.0
+    }
   },
   {
     "id": 2,
@@ -34,33 +89,108 @@
     "category": "家常菜",
     "description": "红烧肉是一道著名的大众菜肴，以五花肉为主料，肥瘦相间，香甜松软，入口即化。",
     "ingredients": [
-      {"name": "五花肉", "amount": "500克", "weight": "500克"},
-      {"name": "姜", "amount": "3片", "weight": "15克"},
-      {"name": "葱", "amount": "2段", "weight": "20克"}
+      {
+        "name": "五花肉",
+        "amount": "500克",
+        "weight": "500克"
+      },
+      {
+        "name": "姜",
+        "amount": "3片",
+        "weight": "15克"
+      },
+      {
+        "name": "葱",
+        "amount": "2段",
+        "weight": "20克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "料酒", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "生抽", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "老抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "冰糖", "amount": "30克", "weight": "30克"},
-      {"name": "八角", "amount": "2个", "weight": "2克"},
-      {"name": "桂皮", "amount": "1小块", "weight": "3克"}
+      {
+        "name": "食用油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "老抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "冰糖",
+        "amount": "30克",
+        "weight": "30克"
+      },
+      {
+        "name": "八角",
+        "amount": "2个",
+        "weight": "2克"
+      },
+      {
+        "name": "桂皮",
+        "amount": "1小块",
+        "weight": "3克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "五花肉洗净，切成3厘米见方的块。"},
-      {"step": 2, "description": "锅中加水，放入五花肉、姜片、葱段和1汤勺料酒，大火煮开后撇去浮沫，捞出五花肉备用。"},
-      {"step": 3, "description": "锅中倒入1汤勺食用油，放入冰糖，小火炒至冰糖融化变成焦糖色。"},
-      {"step": 4, "description": "放入五花肉块，翻炒均匀，使每块肉都裹上糖色。"},
-      {"step": 5, "description": "加入姜片、葱段、八角、桂皮，翻炒出香味。"},
-      {"step": 6, "description": "加入1汤勺料酒、2汤勺生抽、1汤勺老抽，翻炒均匀。"},
-      {"step": 7, "description": "加入适量热水，水量要没过五花肉，大火煮开后转小火炖煮40分钟。"},
-      {"step": 8, "description": "最后大火收汁，待汤汁浓稠即可出锅。"}
+      {
+        "step": 1,
+        "description": "五花肉洗净，切成3厘米见方的块。"
+      },
+      {
+        "step": 2,
+        "description": "锅中加水，放入五花肉、姜片、葱段和1汤勺料酒，大火煮开后撇去浮沫，捞出五花肉备用。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入1汤勺食用油，放入冰糖，小火炒至冰糖融化变成焦糖色。"
+      },
+      {
+        "step": 4,
+        "description": "放入五花肉块，翻炒均匀，使每块肉都裹上糖色。"
+      },
+      {
+        "step": 5,
+        "description": "加入姜片、葱段、八角、桂皮，翻炒出香味。"
+      },
+      {
+        "step": 6,
+        "description": "加入1汤勺料酒、2汤勺生抽、1汤勺老抽，翻炒均匀。"
+      },
+      {
+        "step": 7,
+        "description": "加入适量热水，水量要没过五花肉，大火煮开后转小火炖煮40分钟。"
+      },
+      {
+        "step": 8,
+        "description": "最后大火收汁，待汤汁浓稠即可出锅。"
+      }
     ],
     "cookingTime": "60分钟",
     "difficulty": "中等",
     "servings": "3-4人份",
-    "tips": ["五花肉要选择肥瘦相间的，这样口感更好。", "炒糖色时要用小火，避免炒糊变苦。", "炖煮时要用小火，这样肉更容易炖烂。", "最后收汁时要不停翻动，避免糊锅。"]
+    "tips": [
+      "五花肉要选择肥瘦相间的，这样口感更好。",
+      "炒糖色时要用小火，避免炒糊变苦。",
+      "炖煮时要用小火，这样肉更容易炖烂。",
+      "最后收汁时要不停翻动，避免糊锅。"
+    ],
+    "nutrition": {
+      "calories": 250,
+      "protein": 15.0,
+      "fat": 20.0,
+      "carbs": 3.0
+    }
   },
   {
     "id": 3,
@@ -68,38 +198,131 @@
     "category": "川菜",
     "description": "宫保鸡丁是一道闻名中外的特色传统名菜，红而不辣、辣而不猛、香辣味浓、肉质滑脆。",
     "ingredients": [
-      {"name": "鸡胸肉", "amount": "300克", "weight": "300克"},
-      {"name": "花生米", "amount": "50克", "weight": "50克"},
-      {"name": "黄瓜", "amount": "半根", "weight": "100克"},
-      {"name": "胡萝卜", "amount": "半根", "weight": "80克"},
-      {"name": "干辣椒", "amount": "5-8个", "weight": "5克"},
-      {"name": "花椒", "amount": "1茶勺", "weight": "3克"}
+      {
+        "name": "鸡胸肉",
+        "amount": "300克",
+        "weight": "300克"
+      },
+      {
+        "name": "花生米",
+        "amount": "50克",
+        "weight": "50克"
+      },
+      {
+        "name": "黄瓜",
+        "amount": "半根",
+        "weight": "100克"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": "半根",
+        "weight": "80克"
+      },
+      {
+        "name": "干辣椒",
+        "amount": "5-8个",
+        "weight": "5克"
+      },
+      {
+        "name": "花椒",
+        "amount": "1茶勺",
+        "weight": "3克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "3汤勺", "weight": "30毫升"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "生抽", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "醋", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "糖", "amount": "1汤勺", "weight": "10克"},
-      {"name": "淀粉", "amount": "1汤勺", "weight": "10克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "3汤勺",
+        "weight": "30毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "醋",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "糖",
+        "amount": "1汤勺",
+        "weight": "10克"
+      },
+      {
+        "name": "淀粉",
+        "amount": "1汤勺",
+        "weight": "10克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鸡胸肉洗净，切成1.5厘米见方的丁，加入1汤勺料酒、1汤勺生抽和1汤勺淀粉，腌制15分钟。"},
-      {"step": 2, "description": "黄瓜和胡萝卜洗净，切成与鸡丁大小相近的丁。"},
-      {"step": 3, "description": "干辣椒剪成小段，去籽；花椒备用。"},
-      {"step": 4, "description": "调制宫保汁：将1汤勺生抽、1汤勺醋、1汤勺糖、1汤勺淀粉和适量水混合均匀。"},
-      {"step": 5, "description": "锅中倒入3汤勺食用油，烧至六成热，放入花生米炸至金黄，捞出备用。"},
-      {"step": 6, "description": "锅中留底油，放入干辣椒段和花椒，小火炒出香味。"},
-      {"step": 7, "description": "放入腌制好的鸡丁，大火快速翻炒至变色。"},
-      {"step": 8, "description": "加入黄瓜丁和胡萝卜丁，继续翻炒1分钟。"},
-      {"step": 9, "description": "倒入调好的宫保汁，翻炒均匀，待汤汁变稠。"},
-      {"step": 10, "description": "最后加入炸好的花生米，翻炒均匀即可出锅。"}
+      {
+        "step": 1,
+        "description": "鸡胸肉洗净，切成1.5厘米见方的丁，加入1汤勺料酒、1汤勺生抽和1汤勺淀粉，腌制15分钟。"
+      },
+      {
+        "step": 2,
+        "description": "黄瓜和胡萝卜洗净，切成与鸡丁大小相近的丁。"
+      },
+      {
+        "step": 3,
+        "description": "干辣椒剪成小段，去籽；花椒备用。"
+      },
+      {
+        "step": 4,
+        "description": "调制宫保汁：将1汤勺生抽、1汤勺醋、1汤勺糖、1汤勺淀粉和适量水混合均匀。"
+      },
+      {
+        "step": 5,
+        "description": "锅中倒入3汤勺食用油，烧至六成热，放入花生米炸至金黄，捞出备用。"
+      },
+      {
+        "step": 6,
+        "description": "锅中留底油，放入干辣椒段和花椒，小火炒出香味。"
+      },
+      {
+        "step": 7,
+        "description": "放入腌制好的鸡丁，大火快速翻炒至变色。"
+      },
+      {
+        "step": 8,
+        "description": "加入黄瓜丁和胡萝卜丁，继续翻炒1分钟。"
+      },
+      {
+        "step": 9,
+        "description": "倒入调好的宫保汁，翻炒均匀，待汤汁变稠。"
+      },
+      {
+        "step": 10,
+        "description": "最后加入炸好的花生米，翻炒均匀即可出锅。"
+      }
     ],
     "cookingTime": "30分钟",
     "difficulty": "中等",
     "servings": "2-3人份",
-    "tips": ["鸡胸肉要逆着纹理切，这样口感更嫩。", "花生米要最后加入，保持酥脆口感。", "干辣椒的用量可以根据个人口味调整。", "宫保汁要提前调好，这样炒菜时更方便。"]
+    "tips": [
+      "鸡胸肉要逆着纹理切，这样口感更嫩。",
+      "花生米要最后加入，保持酥脆口感。",
+      "干辣椒的用量可以根据个人口味调整。",
+      "宫保汁要提前调好，这样炒菜时更方便。"
+    ],
+    "nutrition": {
+      "calories": 150,
+      "protein": 15.0,
+      "fat": 8.0,
+      "carbs": 6.0
+    }
   },
   {
     "id": 4,
@@ -107,30 +330,94 @@
     "category": "家常菜",
     "description": "可乐鸡翅是一道简单美味的家常菜，鸡翅鲜嫩入味，带有可乐的香甜。",
     "ingredients": [
-      {"name": "鸡翅中", "amount": "10个", "weight": "500克"},
-      {"name": "可乐", "amount": "1罐", "weight": "330毫升"},
-      {"name": "姜", "amount": "3片", "weight": "15克"},
-      {"name": "葱", "amount": "2段", "weight": "20克"}
+      {
+        "name": "鸡翅中",
+        "amount": "10个",
+        "weight": "500克"
+      },
+      {
+        "name": "可乐",
+        "amount": "1罐",
+        "weight": "330毫升"
+      },
+      {
+        "name": "姜",
+        "amount": "3片",
+        "weight": "15克"
+      },
+      {
+        "name": "葱",
+        "amount": "2段",
+        "weight": "20克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "生抽", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "老抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "老抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鸡翅中洗净，在两面各划两刀，方便入味。"},
-      {"step": 2, "description": "锅中加水，放入鸡翅、姜片和料酒，煮开后撇去浮沫，捞出鸡翅。"},
-      {"step": 3, "description": "锅中倒入1汤勺食用油，放入鸡翅煎至两面金黄。"},
-      {"step": 4, "description": "加入姜片、葱段、生抽和老抽，翻炒均匀。"},
-      {"step": 5, "description": "倒入可乐，大火煮开后转小火炖煮15分钟。"},
-      {"step": 6, "description": "最后大火收汁，待汤汁浓稠即可出锅。"}
+      {
+        "step": 1,
+        "description": "鸡翅中洗净，在两面各划两刀，方便入味。"
+      },
+      {
+        "step": 2,
+        "description": "锅中加水，放入鸡翅、姜片和料酒，煮开后撇去浮沫，捞出鸡翅。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入1汤勺食用油，放入鸡翅煎至两面金黄。"
+      },
+      {
+        "step": 4,
+        "description": "加入姜片、葱段、生抽和老抽，翻炒均匀。"
+      },
+      {
+        "step": 5,
+        "description": "倒入可乐，大火煮开后转小火炖煮15分钟。"
+      },
+      {
+        "step": 6,
+        "description": "最后大火收汁，待汤汁浓稠即可出锅。"
+      }
     ],
     "cookingTime": "30分钟",
     "difficulty": "简单",
     "servings": "2-3人份",
-    "tips": ["鸡翅要提前焯水去腥。", "可乐要选择普通可乐，不要用零度或无糖的。", "收汁时要注意火候，避免糊锅。"]
+    "tips": [
+      "鸡翅要提前焯水去腥。",
+      "可乐要选择普通可乐，不要用零度或无糖的。",
+      "收汁时要注意火候，避免糊锅。"
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 18.0,
+      "fat": 10.0,
+      "carbs": 5.0
+    }
   },
   {
     "id": 5,
@@ -138,31 +425,99 @@
     "category": "川菜",
     "description": "麻婆豆腐是四川传统名菜，麻辣鲜香，豆腐嫩滑，是一道下饭神器。",
     "ingredients": [
-      {"name": "嫩豆腐", "amount": "1块", "weight": "400克"},
-      {"name": "猪肉末", "amount": "100克", "weight": "100克"},
-      {"name": "葱花", "amount": "适量", "weight": "10克"},
-      {"name": "姜末", "amount": "适量", "weight": "5克"}
+      {
+        "name": "嫩豆腐",
+        "amount": "1块",
+        "weight": "400克"
+      },
+      {
+        "name": "猪肉末",
+        "amount": "100克",
+        "weight": "100克"
+      },
+      {
+        "name": "葱花",
+        "amount": "适量",
+        "weight": "10克"
+      },
+      {
+        "name": "姜末",
+        "amount": "适量",
+        "weight": "5克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "豆瓣酱", "amount": "1汤勺", "weight": "15克"},
-      {"name": "花椒粉", "amount": "1茶勺", "weight": "3克"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "淀粉", "amount": "1汤勺", "weight": "10克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "豆瓣酱",
+        "amount": "1汤勺",
+        "weight": "15克"
+      },
+      {
+        "name": "花椒粉",
+        "amount": "1茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "淀粉",
+        "amount": "1汤勺",
+        "weight": "10克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "豆腐切成2厘米见方的小块，放入开水中焯水2分钟，捞出沥干。"},
-      {"step": 2, "description": "锅中倒入2汤勺食用油，放入猪肉末炒至变色。"},
-      {"step": 3, "description": "加入姜末和豆瓣酱，小火炒出红油。"},
-      {"step": 4, "description": "加入适量清水，放入豆腐块，轻轻翻动，小火炖煮5分钟。"},
-      {"step": 5, "description": "加入生抽和盐调味，用水淀粉勾芡。"},
-      {"step": 6, "description": "出锅前撒上花椒粉和葱花即可。"}
+      {
+        "step": 1,
+        "description": "豆腐切成2厘米见方的小块，放入开水中焯水2分钟，捞出沥干。"
+      },
+      {
+        "step": 2,
+        "description": "锅中倒入2汤勺食用油，放入猪肉末炒至变色。"
+      },
+      {
+        "step": 3,
+        "description": "加入姜末和豆瓣酱，小火炒出红油。"
+      },
+      {
+        "step": 4,
+        "description": "加入适量清水，放入豆腐块，轻轻翻动，小火炖煮5分钟。"
+      },
+      {
+        "step": 5,
+        "description": "加入生抽和盐调味，用水淀粉勾芡。"
+      },
+      {
+        "step": 6,
+        "description": "出锅前撒上花椒粉和葱花即可。"
+      }
     ],
     "cookingTime": "20分钟",
     "difficulty": "中等",
     "servings": "2-3人份",
-    "tips": ["豆腐要先焯水，这样不容易碎。", "翻动豆腐时要轻，避免弄碎。", "花椒粉最后放，保持麻味。"]
+    "tips": [
+      "豆腐要先焯水，这样不容易碎。",
+      "翻动豆腐时要轻，避免弄碎。",
+      "花椒粉最后放，保持麻味。"
+    ],
+    "nutrition": {
+      "calories": 120,
+      "protein": 10.0,
+      "fat": 8.0,
+      "carbs": 3.0
+    }
   },
   {
     "id": 6,
@@ -170,35 +525,118 @@
     "category": "川菜",
     "description": "鱼香肉丝是一道经典川菜，酸甜微辣，肉丝嫩滑，配菜爽脆。",
     "ingredients": [
-      {"name": "猪里脊肉", "amount": "250克", "weight": "250克"},
-      {"name": "木耳", "amount": "适量", "weight": "50克"},
-      {"name": "胡萝卜", "amount": "1根", "weight": "100克"},
-      {"name": "青椒", "amount": "1个", "weight": "80克"},
-      {"name": "葱姜蒜", "amount": "适量", "weight": "20克"}
+      {
+        "name": "猪里脊肉",
+        "amount": "250克",
+        "weight": "250克"
+      },
+      {
+        "name": "木耳",
+        "amount": "适量",
+        "weight": "50克"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": "1根",
+        "weight": "100克"
+      },
+      {
+        "name": "青椒",
+        "amount": "1个",
+        "weight": "80克"
+      },
+      {
+        "name": "葱姜蒜",
+        "amount": "适量",
+        "weight": "20克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "3汤勺", "weight": "30毫升"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "生抽", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "醋", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "糖", "amount": "1汤勺", "weight": "10克"},
-      {"name": "淀粉", "amount": "2汤勺", "weight": "20克"},
-      {"name": "豆瓣酱", "amount": "1汤勺", "weight": "15克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "3汤勺",
+        "weight": "30毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "醋",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "糖",
+        "amount": "1汤勺",
+        "weight": "10克"
+      },
+      {
+        "name": "淀粉",
+        "amount": "2汤勺",
+        "weight": "20克"
+      },
+      {
+        "name": "豆瓣酱",
+        "amount": "1汤勺",
+        "weight": "15克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "猪里脊肉切丝，加入1汤勺料酒、1汤勺生抽和1汤勺淀粉，腌制10分钟。"},
-      {"step": 2, "description": "木耳泡发切丝，胡萝卜和青椒切丝，葱姜蒜切末。"},
-      {"step": 3, "description": "调鱼香汁：将1汤勺生抽、2汤勺醋、1汤勺糖、1汤勺淀粉和适量水混合均匀。"},
-      {"step": 4, "description": "锅中倒入3汤勺食用油，放入肉丝滑炒至变色，盛出备用。"},
-      {"step": 5, "description": "锅中留底油，放入葱姜蒜末和豆瓣酱炒香。"},
-      {"step": 6, "description": "放入胡萝卜丝、木耳丝和青椒丝翻炒1分钟。"},
-      {"step": 7, "description": "倒入肉丝和鱼香汁，大火翻炒均匀即可出锅。"}
+      {
+        "step": 1,
+        "description": "猪里脊肉切丝，加入1汤勺料酒、1汤勺生抽和1汤勺淀粉，腌制10分钟。"
+      },
+      {
+        "step": 2,
+        "description": "木耳泡发切丝，胡萝卜和青椒切丝，葱姜蒜切末。"
+      },
+      {
+        "step": 3,
+        "description": "调鱼香汁：将1汤勺生抽、2汤勺醋、1汤勺糖、1汤勺淀粉和适量水混合均匀。"
+      },
+      {
+        "step": 4,
+        "description": "锅中倒入3汤勺食用油，放入肉丝滑炒至变色，盛出备用。"
+      },
+      {
+        "step": 5,
+        "description": "锅中留底油，放入葱姜蒜末和豆瓣酱炒香。"
+      },
+      {
+        "step": 6,
+        "description": "放入胡萝卜丝、木耳丝和青椒丝翻炒1分钟。"
+      },
+      {
+        "step": 7,
+        "description": "倒入肉丝和鱼香汁，大火翻炒均匀即可出锅。"
+      }
     ],
     "cookingTime": "25分钟",
     "difficulty": "中等",
     "servings": "2-3人份",
-    "tips": ["肉丝要顺着纹理切，这样口感更好。", "鱼香汁要提前调好，炒菜时更方便。", "大火快炒，保持蔬菜的脆嫩。"]
+    "tips": [
+      "肉丝要顺着纹理切，这样口感更好。",
+      "鱼香汁要提前调好，炒菜时更方便。",
+      "大火快炒，保持蔬菜的脆嫩。"
+    ],
+    "nutrition": {
+      "calories": 130,
+      "protein": 12.0,
+      "fat": 7.0,
+      "carbs": 5.0
+    }
   },
   {
     "id": 7,
@@ -206,26 +644,75 @@
     "category": "家常菜",
     "description": "清炒时蔬是一道简单健康的家常菜，保留蔬菜的原汁原味，清淡爽口。",
     "ingredients": [
-      {"name": "西兰花", "amount": "1颗", "weight": "300克"},
-      {"name": "胡萝卜", "amount": "半根", "weight": "80克"},
-      {"name": "蒜", "amount": "3瓣", "weight": "10克"}
+      {
+        "name": "西兰花",
+        "amount": "1颗",
+        "weight": "300克"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": "半根",
+        "weight": "80克"
+      },
+      {
+        "name": "蒜",
+        "amount": "3瓣",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "鸡精", "amount": "少许", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "鸡精",
+        "amount": "少许",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "西兰花洗净，切成小朵；胡萝卜切片；蒜切末。"},
-      {"step": 2, "description": "锅中烧水，加入少许盐和油，放入西兰花和胡萝卜焯水1分钟，捞出沥干。"},
-      {"step": 3, "description": "锅中倒入1汤勺食用油，放入蒜末爆香。"},
-      {"step": 4, "description": "放入焯好的蔬菜，大火翻炒1分钟。"},
-      {"step": 5, "description": "加入盐和鸡精调味，翻炒均匀即可出锅。"}
+      {
+        "step": 1,
+        "description": "西兰花洗净，切成小朵；胡萝卜切片；蒜切末。"
+      },
+      {
+        "step": 2,
+        "description": "锅中烧水，加入少许盐和油，放入西兰花和胡萝卜焯水1分钟，捞出沥干。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入1汤勺食用油，放入蒜末爆香。"
+      },
+      {
+        "step": 4,
+        "description": "放入焯好的蔬菜，大火翻炒1分钟。"
+      },
+      {
+        "step": 5,
+        "description": "加入盐和鸡精调味，翻炒均匀即可出锅。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["蔬菜焯水时加盐和油，可以保持蔬菜的翠绿色。", "大火快炒，保持蔬菜的脆嫩口感。", "调味要简单，突出蔬菜本身的味道。"]
+    "tips": [
+      "蔬菜焯水时加盐和油，可以保持蔬菜的翠绿色。",
+      "大火快炒，保持蔬菜的脆嫩口感。",
+      "调味要简单，突出蔬菜本身的味道。"
+    ],
+    "nutrition": {
+      "calories": 40,
+      "protein": 2.0,
+      "fat": 2.0,
+      "carbs": 4.0
+    }
   },
   {
     "id": 8,
@@ -233,31 +720,99 @@
     "category": "川菜",
     "description": "回锅肉是四川传统名菜，肉片肥而不腻，配上青蒜和豆瓣酱，香气扑鼻。",
     "ingredients": [
-      {"name": "五花肉", "amount": "300克", "weight": "300克"},
-      {"name": "青蒜", "amount": "200克", "weight": "200克"},
-      {"name": "姜", "amount": "3片", "weight": "15克"},
-      {"name": "葱", "amount": "2段", "weight": "20克"}
+      {
+        "name": "五花肉",
+        "amount": "300克",
+        "weight": "300克"
+      },
+      {
+        "name": "青蒜",
+        "amount": "200克",
+        "weight": "200克"
+      },
+      {
+        "name": "姜",
+        "amount": "3片",
+        "weight": "15克"
+      },
+      {
+        "name": "葱",
+        "amount": "2段",
+        "weight": "20克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "豆瓣酱", "amount": "1汤勺", "weight": "15克"},
-      {"name": "甜面酱", "amount": "1茶勺", "weight": "10克"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "糖", "amount": "1/2茶勺", "weight": "3克"}
+      {
+        "name": "食用油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "豆瓣酱",
+        "amount": "1汤勺",
+        "weight": "15克"
+      },
+      {
+        "name": "甜面酱",
+        "amount": "1茶勺",
+        "weight": "10克"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "糖",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "五花肉洗净，放入锅中，加入姜片、葱段和料酒，煮至八成熟，捞出晾凉。"},
-      {"step": 2, "description": "将晾凉的五花肉切成薄片，青蒜切段。"},
-      {"step": 3, "description": "锅中不放油，放入五花肉片，小火煸炒至肉片出油、边缘卷曲。"},
-      {"step": 4, "description": "将肉片推到锅边，放入豆瓣酱和甜面酱炒出红油。"},
-      {"step": 5, "description": "加入生抽和糖，翻炒均匀。"},
-      {"step": 6, "description": "放入青蒜段，大火翻炒至青蒜断生即可出锅。"}
+      {
+        "step": 1,
+        "description": "五花肉洗净，放入锅中，加入姜片、葱段和料酒，煮至八成熟，捞出晾凉。"
+      },
+      {
+        "step": 2,
+        "description": "将晾凉的五花肉切成薄片，青蒜切段。"
+      },
+      {
+        "step": 3,
+        "description": "锅中不放油，放入五花肉片，小火煸炒至肉片出油、边缘卷曲。"
+      },
+      {
+        "step": 4,
+        "description": "将肉片推到锅边，放入豆瓣酱和甜面酱炒出红油。"
+      },
+      {
+        "step": 5,
+        "description": "加入生抽和糖，翻炒均匀。"
+      },
+      {
+        "step": 6,
+        "description": "放入青蒜段，大火翻炒至青蒜断生即可出锅。"
+      }
     ],
     "cookingTime": "30分钟",
     "difficulty": "中等",
     "servings": "2-3人份",
-    "tips": ["五花肉要煮至八成熟，这样切片更容易。", "煸炒五花肉时要用小火，逼出油脂。", "青蒜要最后放，保持脆嫩口感。"]
+    "tips": [
+      "五花肉要煮至八成熟，这样切片更容易。",
+      "煸炒五花肉时要用小火，逼出油脂。",
+      "青蒜要最后放，保持脆嫩口感。"
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 14.0,
+      "fat": 18.0,
+      "carbs": 2.0
+    }
   },
   {
     "id": 9,
@@ -265,29 +820,89 @@
     "category": "家常菜",
     "description": "酸辣土豆丝是一道开胃下饭的家常菜，土豆丝爽脆，酸辣可口。",
     "ingredients": [
-      {"name": "土豆", "amount": "2个", "weight": "400克"},
-      {"name": "干辣椒", "amount": "5个", "weight": "5克"},
-      {"name": "花椒", "amount": "1茶勺", "weight": "3克"},
-      {"name": "葱", "amount": "适量", "weight": "10克"}
+      {
+        "name": "土豆",
+        "amount": "2个",
+        "weight": "400克"
+      },
+      {
+        "name": "干辣椒",
+        "amount": "5个",
+        "weight": "5克"
+      },
+      {
+        "name": "花椒",
+        "amount": "1茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "葱",
+        "amount": "适量",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "醋", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "鸡精", "amount": "少许", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "醋",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "鸡精",
+        "amount": "少许",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "土豆去皮，切成细丝，放入清水中浸泡10分钟，去除淀粉。"},
-      {"step": 2, "description": "干辣椒剪成小段，葱切末。"},
-      {"step": 3, "description": "锅中倒入2汤勺食用油，放入干辣椒段和花椒，小火炒出香味。"},
-      {"step": 4, "description": "捞出土豆丝，沥干水分，放入锅中大火翻炒。"},
-      {"step": 5, "description": "加入醋、盐和鸡精，继续翻炒2分钟。"},
-      {"step": 6, "description": "出锅前撒上葱花即可。"}
+      {
+        "step": 1,
+        "description": "土豆去皮，切成细丝，放入清水中浸泡10分钟，去除淀粉。"
+      },
+      {
+        "step": 2,
+        "description": "干辣椒剪成小段，葱切末。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入2汤勺食用油，放入干辣椒段和花椒，小火炒出香味。"
+      },
+      {
+        "step": 4,
+        "description": "捞出土豆丝，沥干水分，放入锅中大火翻炒。"
+      },
+      {
+        "step": 5,
+        "description": "加入醋、盐和鸡精，继续翻炒2分钟。"
+      },
+      {
+        "step": 6,
+        "description": "出锅前撒上葱花即可。"
+      }
     ],
     "cookingTime": "15分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["土豆丝要切得细一些，口感更好。", "土豆丝要浸泡去除淀粉，这样炒出来更脆。", "大火快炒，保持土豆丝的脆嫩。"]
+    "tips": [
+      "土豆丝要切得细一些，口感更好。",
+      "土豆丝要浸泡去除淀粉，这样炒出来更脆。",
+      "大火快炒，保持土豆丝的脆嫩。"
+    ],
+    "nutrition": {
+      "calories": 80,
+      "protein": 2.0,
+      "fat": 3.0,
+      "carbs": 12.0
+    }
   },
   {
     "id": 10,
@@ -295,25 +910,70 @@
     "category": "减脂餐",
     "description": "蒜蓉西兰花是一道低卡高纤维的健康菜品，适合减脂期食用。",
     "ingredients": [
-      {"name": "西兰花", "amount": "1颗", "weight": "300克"},
-      {"name": "蒜", "amount": "5瓣", "weight": "15克"}
+      {
+        "name": "西兰花",
+        "amount": "1颗",
+        "weight": "300克"
+      },
+      {
+        "name": "蒜",
+        "amount": "5瓣",
+        "weight": "15克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "黑胡椒", "amount": "适量", "weight": "1克"}
+      {
+        "name": "橄榄油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "黑胡椒",
+        "amount": "适量",
+        "weight": "1克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "西兰花洗净，切成小朵；蒜切末。"},
-      {"step": 2, "description": "锅中烧水，放入西兰花焯水2分钟，捞出沥干。"},
-      {"step": 3, "description": "锅中倒入1汤勺橄榄油，放入蒜末爆香。"},
-      {"step": 4, "description": "放入西兰花，大火翻炒1分钟。"},
-      {"step": 5, "description": "加入盐和黑胡椒调味，翻炒均匀即可出锅。"}
+      {
+        "step": 1,
+        "description": "西兰花洗净，切成小朵；蒜切末。"
+      },
+      {
+        "step": 2,
+        "description": "锅中烧水，放入西兰花焯水2分钟，捞出沥干。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入1汤勺橄榄油，放入蒜末爆香。"
+      },
+      {
+        "step": 4,
+        "description": "放入西兰花，大火翻炒1分钟。"
+      },
+      {
+        "step": 5,
+        "description": "加入盐和黑胡椒调味，翻炒均匀即可出锅。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["西兰花焯水时间不要太长，保持脆嫩。", "使用橄榄油更健康。", "黑胡椒可以增加风味，也有助于新陈代谢。"]
+    "tips": [
+      "西兰花焯水时间不要太长，保持脆嫩。",
+      "使用橄榄油更健康。",
+      "黑胡椒可以增加风味，也有助于新陈代谢。"
+    ],
+    "nutrition": {
+      "calories": 35,
+      "protein": 3.0,
+      "fat": 1.5,
+      "carbs": 3.0
+    }
   },
   {
     "id": 11,
@@ -321,30 +981,94 @@
     "category": "减脂餐",
     "description": "鸡胸肉沙拉是一道高蛋白低脂肪的减脂餐，营养均衡，饱腹感强。",
     "ingredients": [
-      {"name": "鸡胸肉", "amount": "1块", "weight": "200克"},
-      {"name": "生菜", "amount": "1颗", "weight": "100克"},
-      {"name": "小番茄", "amount": "10个", "weight": "100克"},
-      {"name": "黄瓜", "amount": "半根", "weight": "100克"},
-      {"name": "玉米粒", "amount": "适量", "weight": "50克"}
+      {
+        "name": "鸡胸肉",
+        "amount": "1块",
+        "weight": "200克"
+      },
+      {
+        "name": "生菜",
+        "amount": "1颗",
+        "weight": "100克"
+      },
+      {
+        "name": "小番茄",
+        "amount": "10个",
+        "weight": "100克"
+      },
+      {
+        "name": "黄瓜",
+        "amount": "半根",
+        "weight": "100克"
+      },
+      {
+        "name": "玉米粒",
+        "amount": "适量",
+        "weight": "50克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "柠檬汁", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "适量", "weight": "2克"},
-      {"name": "黑胡椒", "amount": "适量", "weight": "1克"}
+      {
+        "name": "橄榄油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      },
+      {
+        "name": "黑胡椒",
+        "amount": "适量",
+        "weight": "1克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鸡胸肉用盐和黑胡椒腌制10分钟。"},
-      {"step": 2, "description": "锅中加水，放入鸡胸肉煮熟，捞出晾凉后撕成丝。"},
-      {"step": 3, "description": "生菜洗净撕成小块，黄瓜切片，小番茄对半切开。"},
-      {"step": 4, "description": "将所有蔬菜放入大碗中，加入玉米粒。"},
-      {"step": 5, "description": "放入鸡胸肉丝，淋上橄榄油和柠檬汁。"},
-      {"step": 6, "description": "加入盐和黑胡椒，拌匀即可食用。"}
+      {
+        "step": 1,
+        "description": "鸡胸肉用盐和黑胡椒腌制10分钟。"
+      },
+      {
+        "step": 2,
+        "description": "锅中加水，放入鸡胸肉煮熟，捞出晾凉后撕成丝。"
+      },
+      {
+        "step": 3,
+        "description": "生菜洗净撕成小块，黄瓜切片，小番茄对半切开。"
+      },
+      {
+        "step": 4,
+        "description": "将所有蔬菜放入大碗中，加入玉米粒。"
+      },
+      {
+        "step": 5,
+        "description": "放入鸡胸肉丝，淋上橄榄油和柠檬汁。"
+      },
+      {
+        "step": 6,
+        "description": "加入盐和黑胡椒，拌匀即可食用。"
+      }
     ],
     "cookingTime": "20分钟",
     "difficulty": "简单",
     "servings": "1人份",
-    "tips": ["鸡胸肉不要煮太久，避免口感变柴。", "可以根据个人喜好添加其他蔬菜。", "沙拉酱可以用希腊酸奶代替，更低卡。"]
+    "tips": [
+      "鸡胸肉不要煮太久，避免口感变柴。",
+      "可以根据个人喜好添加其他蔬菜。",
+      "沙拉酱可以用希腊酸奶代替，更低卡。"
+    ],
+    "nutrition": {
+      "calories": 90,
+      "protein": 12.0,
+      "fat": 3.0,
+      "carbs": 4.0
+    }
   },
   {
     "id": 12,
@@ -352,30 +1076,92 @@
     "category": "减脂餐",
     "description": "清蒸鲈鱼是一道低脂高蛋白的健康菜品，鱼肉鲜嫩，清淡爽口。",
     "ingredients": [
-      {"name": "鲈鱼", "amount": "1条", "weight": "500克"},
-      {"name": "姜", "amount": "1块", "weight": "20克"},
-      {"name": "葱", "amount": "2根", "weight": "20克"},
-      {"name": "红椒", "amount": "少许", "weight": "10克"}
+      {
+        "name": "鲈鱼",
+        "amount": "1条",
+        "weight": "500克"
+      },
+      {
+        "name": "姜",
+        "amount": "1块",
+        "weight": "20克"
+      },
+      {
+        "name": "葱",
+        "amount": "2根",
+        "weight": "20克"
+      },
+      {
+        "name": "红椒",
+        "amount": "少许",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "蒸鱼豉油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "蒸鱼豉油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鲈鱼处理干净，在鱼身两面各划几刀。"},
-      {"step": 2, "description": "用盐和料酒涂抹鱼身，腌制10分钟。"},
-      {"step": 3, "description": "姜切片，葱切丝，红椒切丝。"},
-      {"step": 4, "description": "将姜片塞入鱼肚和划口处，放入盘中。"},
-      {"step": 5, "description": "锅中烧水，水开后放入鱼，大火蒸8-10分钟。"},
-      {"step": 6, "description": "取出蒸好的鱼，倒掉盘中的汤汁。"},
-      {"step": 7, "description": "在鱼身上撒上葱丝和红椒丝，淋上蒸鱼豉油。"},
-      {"step": 8, "description": "另起锅烧热少许油，淋在鱼身上即可。"}
+      {
+        "step": 1,
+        "description": "鲈鱼处理干净，在鱼身两面各划几刀。"
+      },
+      {
+        "step": 2,
+        "description": "用盐和料酒涂抹鱼身，腌制10分钟。"
+      },
+      {
+        "step": 3,
+        "description": "姜切片，葱切丝，红椒切丝。"
+      },
+      {
+        "step": 4,
+        "description": "将姜片塞入鱼肚和划口处，放入盘中。"
+      },
+      {
+        "step": 5,
+        "description": "锅中烧水，水开后放入鱼，大火蒸8-10分钟。"
+      },
+      {
+        "step": 6,
+        "description": "取出蒸好的鱼，倒掉盘中的汤汁。"
+      },
+      {
+        "step": 7,
+        "description": "在鱼身上撒上葱丝和红椒丝，淋上蒸鱼豉油。"
+      },
+      {
+        "step": 8,
+        "description": "另起锅烧热少许油，淋在鱼身上即可。"
+      }
     ],
     "cookingTime": "25分钟",
     "difficulty": "中等",
     "servings": "2人份",
-    "tips": ["蒸鱼时间不宜过长，8-10分钟即可。", "蒸好后要倒掉汤汁，去除腥味。", "最后淋热油可以激发葱姜的香味。"]
+    "tips": [
+      "蒸鱼时间不宜过长，8-10分钟即可。",
+      "蒸好后要倒掉汤汁，去除腥味。",
+      "最后淋热油可以激发葱姜的香味。"
+    ],
+    "nutrition": {
+      "calories": 100,
+      "protein": 18.0,
+      "fat": 3.0,
+      "carbs": 0.5
+    }
   },
   {
     "id": 13,
@@ -383,28 +1169,84 @@
     "category": "减脂餐",
     "description": "这是一道简单快手的减脂餐，高蛋白低碳水，适合健身人群。",
     "ingredients": [
-      {"name": "鸡胸肉", "amount": "1块", "weight": "200克"},
-      {"name": "西兰花", "amount": "半颗", "weight": "150克"},
-      {"name": "胡萝卜", "amount": "1根", "weight": "100克"},
-      {"name": "玉米", "amount": "半根", "weight": "100克"}
+      {
+        "name": "鸡胸肉",
+        "amount": "1块",
+        "weight": "200克"
+      },
+      {
+        "name": "西兰花",
+        "amount": "半颗",
+        "weight": "150克"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": "1根",
+        "weight": "100克"
+      },
+      {
+        "name": "玉米",
+        "amount": "半根",
+        "weight": "100克"
+      }
     ],
     "seasonings": [
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "黑胡椒", "amount": "适量", "weight": "1克"},
-      {"name": "柠檬汁", "amount": "1汤勺", "weight": "10毫升"}
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "黑胡椒",
+        "amount": "适量",
+        "weight": "1克"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鸡胸肉用盐、黑胡椒和柠檬汁腌制15分钟。"},
-      {"step": 2, "description": "西兰花切小朵，胡萝卜切块，玉米切段。"},
-      {"step": 3, "description": "锅中加水烧开，放入鸡胸肉煮15分钟至熟。"},
-      {"step": 4, "description": "另起锅烧水，放入蔬菜焯水3分钟。"},
-      {"step": 5, "description": "将鸡胸肉切片，与蔬菜一起摆盘。"},
-      {"step": 6, "description": "撒上少许黑胡椒即可食用。"}
+      {
+        "step": 1,
+        "description": "鸡胸肉用盐、黑胡椒和柠檬汁腌制15分钟。"
+      },
+      {
+        "step": 2,
+        "description": "西兰花切小朵，胡萝卜切块，玉米切段。"
+      },
+      {
+        "step": 3,
+        "description": "锅中加水烧开，放入鸡胸肉煮15分钟至熟。"
+      },
+      {
+        "step": 4,
+        "description": "另起锅烧水，放入蔬菜焯水3分钟。"
+      },
+      {
+        "step": 5,
+        "description": "将鸡胸肉切片，与蔬菜一起摆盘。"
+      },
+      {
+        "step": 6,
+        "description": "撒上少许黑胡椒即可食用。"
+      }
     ],
     "cookingTime": "25分钟",
     "difficulty": "简单",
     "servings": "1人份",
-    "tips": ["鸡胸肉可以提前一晚腌制，更入味。", "蔬菜可以根据个人喜好更换。", "可以搭配糙米饭或红薯，增加碳水摄入。"]
+    "tips": [
+      "鸡胸肉可以提前一晚腌制，更入味。",
+      "蔬菜可以根据个人喜好更换。",
+      "可以搭配糙米饭或红薯，增加碳水摄入。"
+    ],
+    "nutrition": {
+      "calories": 85,
+      "protein": 15.0,
+      "fat": 1.5,
+      "carbs": 3.0
+    }
   },
   {
     "id": 14,
@@ -412,26 +1254,75 @@
     "category": "减脂餐",
     "description": "虾仁炒蛋是一道高蛋白低脂肪的快手菜，虾仁鲜美，鸡蛋嫩滑。",
     "ingredients": [
-      {"name": "虾仁", "amount": "200克", "weight": "200克"},
-      {"name": "鸡蛋", "amount": "3个", "weight": "150克"},
-      {"name": "葱", "amount": "适量", "weight": "10克"}
+      {
+        "name": "虾仁",
+        "amount": "200克",
+        "weight": "200克"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": "3个",
+        "weight": "150克"
+      },
+      {
+        "name": "葱",
+        "amount": "适量",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "料酒", "amount": "1茶勺", "weight": "5毫升"}
+      {
+        "name": "橄榄油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "料酒",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "虾仁洗净，用料酒和少许盐腌制5分钟。"},
-      {"step": 2, "description": "鸡蛋打入碗中，加入少许盐打散。"},
-      {"step": 3, "description": "锅中倒入橄榄油，放入虾仁炒至变色，盛出备用。"},
-      {"step": 4, "description": "锅中再加少许油，倒入蛋液，待底部凝固时放入虾仁。"},
-      {"step": 5, "description": "轻轻翻炒至鸡蛋完全凝固，撒上葱花即可出锅。"}
+      {
+        "step": 1,
+        "description": "虾仁洗净，用料酒和少许盐腌制5分钟。"
+      },
+      {
+        "step": 2,
+        "description": "鸡蛋打入碗中，加入少许盐打散。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入橄榄油，放入虾仁炒至变色，盛出备用。"
+      },
+      {
+        "step": 4,
+        "description": "锅中再加少许油，倒入蛋液，待底部凝固时放入虾仁。"
+      },
+      {
+        "step": 5,
+        "description": "轻轻翻炒至鸡蛋完全凝固，撒上葱花即可出锅。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["虾仁不要炒太久，避免口感变老。", "鸡蛋不要炒得太碎，保持大块口感更好。", "使用橄榄油更健康。"]
+    "tips": [
+      "虾仁不要炒太久，避免口感变老。",
+      "鸡蛋不要炒得太碎，保持大块口感更好。",
+      "使用橄榄油更健康。"
+    ],
+    "nutrition": {
+      "calories": 110,
+      "protein": 12.0,
+      "fat": 6.0,
+      "carbs": 2.0
+    }
   },
   {
     "id": 15,
@@ -439,28 +1330,85 @@
     "category": "减脂餐",
     "description": "凉拌黄瓜是一道清爽开胃的低卡小菜，简单易做，适合夏天食用。",
     "ingredients": [
-      {"name": "黄瓜", "amount": "2根", "weight": "300克"},
-      {"name": "蒜", "amount": "3瓣", "weight": "10克"},
-      {"name": "小米椒", "amount": "2个", "weight": "5克"}
+      {
+        "name": "黄瓜",
+        "amount": "2根",
+        "weight": "300克"
+      },
+      {
+        "name": "蒜",
+        "amount": "3瓣",
+        "weight": "10克"
+      },
+      {
+        "name": "小米椒",
+        "amount": "2个",
+        "weight": "5克"
+      }
     ],
     "seasonings": [
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "醋", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "香油", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "盐", "amount": "适量", "weight": "2克"},
-      {"name": "糖", "amount": "1/2茶勺", "weight": "3克"}
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "醋",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "香油",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      },
+      {
+        "name": "糖",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "黄瓜洗净，用刀拍松，切成小段。"},
-      {"step": 2, "description": "蒜切末，小米椒切圈。"},
-      {"step": 3, "description": "将黄瓜放入碗中，加入蒜末和小米椒。"},
-      {"step": 4, "description": "加入生抽、醋、香油、盐和糖。"},
-      {"step": 5, "description": "拌匀后腌制5分钟即可食用。"}
+      {
+        "step": 1,
+        "description": "黄瓜洗净，用刀拍松，切成小段。"
+      },
+      {
+        "step": 2,
+        "description": "蒜切末，小米椒切圈。"
+      },
+      {
+        "step": 3,
+        "description": "将黄瓜放入碗中，加入蒜末和小米椒。"
+      },
+      {
+        "step": 4,
+        "description": "加入生抽、醋、香油、盐和糖。"
+      },
+      {
+        "step": 5,
+        "description": "拌匀后腌制5分钟即可食用。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["黄瓜要拍松而不是切，这样更容易入味。", "可以根据个人口味调整辣度。", "腌制时间不宜过长，保持黄瓜的脆嫩。"]
+    "tips": [
+      "黄瓜要拍松而不是切，这样更容易入味。",
+      "可以根据个人口味调整辣度。",
+      "腌制时间不宜过长，保持黄瓜的脆嫩。"
+    ],
+    "nutrition": {
+      "calories": 25,
+      "protein": 1.0,
+      "fat": 0.5,
+      "carbs": 4.0
+    }
   },
   {
     "id": 16,
@@ -468,32 +1416,103 @@
     "category": "家常菜",
     "description": "地三鲜是一道东北传统名菜，由茄子、土豆和青椒三种蔬菜炒制而成，咸鲜可口。",
     "ingredients": [
-      {"name": "茄子", "amount": "1个", "weight": "200克"},
-      {"name": "土豆", "amount": "1个", "weight": "200克"},
-      {"name": "青椒", "amount": "2个", "weight": "100克"},
-      {"name": "蒜", "amount": "3瓣", "weight": "10克"}
+      {
+        "name": "茄子",
+        "amount": "1个",
+        "weight": "200克"
+      },
+      {
+        "name": "土豆",
+        "amount": "1个",
+        "weight": "200克"
+      },
+      {
+        "name": "青椒",
+        "amount": "2个",
+        "weight": "100克"
+      },
+      {
+        "name": "蒜",
+        "amount": "3瓣",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "3汤勺", "weight": "30毫升"},
-      {"name": "生抽", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "老抽", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "糖", "amount": "1茶勺", "weight": "5克"},
-      {"name": "淀粉", "amount": "1汤勺", "weight": "10克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "3汤勺",
+        "weight": "30毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "老抽",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "糖",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "淀粉",
+        "amount": "1汤勺",
+        "weight": "10克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "茄子和土豆去皮，切成滚刀块；青椒切块；蒜切末。"},
-      {"step": 2, "description": "锅中倒入3汤勺食用油，先放入土豆块炸至金黄，捞出备用。"},
-      {"step": 3, "description": "再放入茄子块炸软，捞出备用。"},
-      {"step": 4, "description": "锅中留底油，放入蒜末爆香。"},
-      {"step": 5, "description": "放入青椒块翻炒1分钟。"},
-      {"step": 6, "description": "倒入土豆块和茄子块，加入生抽、老抽、糖和盐。"},
-      {"step": 7, "description": "用水淀粉勾芡，翻炒均匀即可出锅。"}
+      {
+        "step": 1,
+        "description": "茄子和土豆去皮，切成滚刀块；青椒切块；蒜切末。"
+      },
+      {
+        "step": 2,
+        "description": "锅中倒入3汤勺食用油，先放入土豆块炸至金黄，捞出备用。"
+      },
+      {
+        "step": 3,
+        "description": "再放入茄子块炸软，捞出备用。"
+      },
+      {
+        "step": 4,
+        "description": "锅中留底油，放入蒜末爆香。"
+      },
+      {
+        "step": 5,
+        "description": "放入青椒块翻炒1分钟。"
+      },
+      {
+        "step": 6,
+        "description": "倒入土豆块和茄子块，加入生抽、老抽、糖和盐。"
+      },
+      {
+        "step": 7,
+        "description": "用水淀粉勾芡，翻炒均匀即可出锅。"
+      }
     ],
     "cookingTime": "25分钟",
     "difficulty": "中等",
     "servings": "2-3人份",
-    "tips": ["茄子和土豆要先炸一下，口感更好。", "茄子容易吸油，可以先用盐腌制一下减少吸油。", "大火快炒，保持蔬菜的口感。"]
+    "tips": [
+      "茄子和土豆要先炸一下，口感更好。",
+      "茄子容易吸油，可以先用盐腌制一下减少吸油。",
+      "大火快炒，保持蔬菜的口感。"
+    ],
+    "nutrition": {
+      "calories": 100,
+      "protein": 2.0,
+      "fat": 6.0,
+      "carbs": 10.0
+    }
   },
   {
     "id": 17,
@@ -501,32 +1520,104 @@
     "category": "家常菜",
     "description": "糖醋排骨是一道经典家常菜，酸甜可口，排骨外酥里嫩。",
     "ingredients": [
-      {"name": "小排", "amount": "500克", "weight": "500克"},
-      {"name": "姜", "amount": "3片", "weight": "15克"},
-      {"name": "葱", "amount": "2段", "weight": "20克"},
-      {"name": "白芝麻", "amount": "适量", "weight": "5克"}
+      {
+        "name": "小排",
+        "amount": "500克",
+        "weight": "500克"
+      },
+      {
+        "name": "姜",
+        "amount": "3片",
+        "weight": "15克"
+      },
+      {
+        "name": "葱",
+        "amount": "2段",
+        "weight": "20克"
+      },
+      {
+        "name": "白芝麻",
+        "amount": "适量",
+        "weight": "5克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "生抽", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "醋", "amount": "3汤勺", "weight": "30毫升"},
-      {"name": "糖", "amount": "2汤勺", "weight": "20克"},
-      {"name": "番茄酱", "amount": "1汤勺", "weight": "15克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "醋",
+        "amount": "3汤勺",
+        "weight": "30毫升"
+      },
+      {
+        "name": "糖",
+        "amount": "2汤勺",
+        "weight": "20克"
+      },
+      {
+        "name": "番茄酱",
+        "amount": "1汤勺",
+        "weight": "15克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "小排洗净，切成小段，用料酒和姜片腌制15分钟。"},
-      {"step": 2, "description": "锅中加水，放入排骨焯水，捞出沥干。"},
-      {"step": 3, "description": "锅中倒入2汤勺食用油，放入排骨煎至两面金黄。"},
-      {"step": 4, "description": "加入姜片、葱段、生抽、醋、糖和番茄酱。"},
-      {"step": 5, "description": "加入适量清水，大火煮开后转小火炖煮30分钟。"},
-      {"step": 6, "description": "最后大火收汁，撒上白芝麻即可出锅。"}
+      {
+        "step": 1,
+        "description": "小排洗净，切成小段，用料酒和姜片腌制15分钟。"
+      },
+      {
+        "step": 2,
+        "description": "锅中加水，放入排骨焯水，捞出沥干。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入2汤勺食用油，放入排骨煎至两面金黄。"
+      },
+      {
+        "step": 4,
+        "description": "加入姜片、葱段、生抽、醋、糖和番茄酱。"
+      },
+      {
+        "step": 5,
+        "description": "加入适量清水，大火煮开后转小火炖煮30分钟。"
+      },
+      {
+        "step": 6,
+        "description": "最后大火收汁，撒上白芝麻即可出锅。"
+      }
     ],
     "cookingTime": "50分钟",
     "difficulty": "中等",
     "servings": "3-4人份",
-    "tips": ["排骨要焯水去腥。", "糖醋比例可以根据个人口味调整。", "收汁时要注意火候，避免糊锅。"]
+    "tips": [
+      "排骨要焯水去腥。",
+      "糖醋比例可以根据个人口味调整。",
+      "收汁时要注意火候，避免糊锅。"
+    ],
+    "nutrition": {
+      "calories": 200,
+      "protein": 15.0,
+      "fat": 12.0,
+      "carbs": 8.0
+    }
   },
   {
     "id": 18,
@@ -534,29 +1625,89 @@
     "category": "减脂餐",
     "description": "西兰花鸡胸肉是一道经典的减脂餐，高蛋白低脂肪，营养均衡。",
     "ingredients": [
-      {"name": "鸡胸肉", "amount": "1块", "weight": "200克"},
-      {"name": "西兰花", "amount": "1颗", "weight": "300克"},
-      {"name": "蒜", "amount": "3瓣", "weight": "10克"}
+      {
+        "name": "鸡胸肉",
+        "amount": "1块",
+        "weight": "200克"
+      },
+      {
+        "name": "西兰花",
+        "amount": "1颗",
+        "weight": "300克"
+      },
+      {
+        "name": "蒜",
+        "amount": "3瓣",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "料酒", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "盐", "amount": "适量", "weight": "2克"},
-      {"name": "黑胡椒", "amount": "适量", "weight": "1克"}
+      {
+        "name": "橄榄油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      },
+      {
+        "name": "黑胡椒",
+        "amount": "适量",
+        "weight": "1克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鸡胸肉切丁，用料酒、生抽和黑胡椒腌制10分钟。"},
-      {"step": 2, "description": "西兰花切小朵，焯水1分钟捞出。"},
-      {"step": 3, "description": "锅中倒入橄榄油，放入蒜末爆香。"},
-      {"step": 4, "description": "放入鸡胸肉丁，翻炒至变色。"},
-      {"step": 5, "description": "加入西兰花，继续翻炒2分钟。"},
-      {"step": 6, "description": "加入盐和黑胡椒调味即可出锅。"}
+      {
+        "step": 1,
+        "description": "鸡胸肉切丁，用料酒、生抽和黑胡椒腌制10分钟。"
+      },
+      {
+        "step": 2,
+        "description": "西兰花切小朵，焯水1分钟捞出。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入橄榄油，放入蒜末爆香。"
+      },
+      {
+        "step": 4,
+        "description": "放入鸡胸肉丁，翻炒至变色。"
+      },
+      {
+        "step": 5,
+        "description": "加入西兰花，继续翻炒2分钟。"
+      },
+      {
+        "step": 6,
+        "description": "加入盐和黑胡椒调味即可出锅。"
+      }
     ],
     "cookingTime": "15分钟",
     "difficulty": "简单",
     "servings": "1-2人份",
-    "tips": ["鸡胸肉腌制后口感更嫩。", "西兰花焯水时间不要太长，保持脆嫩。", "可以搭配糙米饭一起食用。"]
+    "tips": [
+      "鸡胸肉腌制后口感更嫩。",
+      "西兰花焯水时间不要太长，保持脆嫩。",
+      "可以搭配糙米饭一起食用。"
+    ],
+    "nutrition": {
+      "calories": 95,
+      "protein": 14.0,
+      "fat": 2.5,
+      "carbs": 3.0
+    }
   },
   {
     "id": 19,
@@ -564,31 +1715,99 @@
     "category": "减脂餐",
     "description": "凉拌鸡丝是一道清爽低卡的减脂餐，鸡丝嫩滑，配菜爽脆。",
     "ingredients": [
-      {"name": "鸡胸肉", "amount": "1块", "weight": "200克"},
-      {"name": "黄瓜", "amount": "1根", "weight": "150克"},
-      {"name": "胡萝卜", "amount": "半根", "weight": "80克"},
-      {"name": "香菜", "amount": "适量", "weight": "10克"}
+      {
+        "name": "鸡胸肉",
+        "amount": "1块",
+        "weight": "200克"
+      },
+      {
+        "name": "黄瓜",
+        "amount": "1根",
+        "weight": "150克"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": "半根",
+        "weight": "80克"
+      },
+      {
+        "name": "香菜",
+        "amount": "适量",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "醋", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "香油", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "辣椒油", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "盐", "amount": "适量", "weight": "2克"},
-      {"name": "糖", "amount": "1/2茶勺", "weight": "3克"}
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "醋",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "香油",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "辣椒油",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      },
+      {
+        "name": "糖",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鸡胸肉用盐和料酒腌制10分钟，然后煮熟。"},
-      {"step": 2, "description": "将煮熟的鸡胸肉晾凉，撕成细丝。"},
-      {"step": 3, "description": "黄瓜和胡萝卜切丝，香菜切段。"},
-      {"step": 4, "description": "将所有食材放入大碗中。"},
-      {"step": 5, "description": "加入生抽、醋、香油、辣椒油、盐和糖。"},
-      {"step": 6, "description": "拌匀即可食用。"}
+      {
+        "step": 1,
+        "description": "鸡胸肉用盐和料酒腌制10分钟，然后煮熟。"
+      },
+      {
+        "step": 2,
+        "description": "将煮熟的鸡胸肉晾凉，撕成细丝。"
+      },
+      {
+        "step": 3,
+        "description": "黄瓜和胡萝卜切丝，香菜切段。"
+      },
+      {
+        "step": 4,
+        "description": "将所有食材放入大碗中。"
+      },
+      {
+        "step": 5,
+        "description": "加入生抽、醋、香油、辣椒油、盐和糖。"
+      },
+      {
+        "step": 6,
+        "description": "拌匀即可食用。"
+      }
     ],
     "cookingTime": "20分钟",
     "difficulty": "简单",
     "servings": "1-2人份",
-    "tips": ["鸡胸肉煮熟后要晾凉再撕，这样更容易撕成丝。", "辣椒油可以根据个人口味调整用量。", "可以加入花生碎增加口感。"]
+    "tips": [
+      "鸡胸肉煮熟后要晾凉再撕，这样更容易撕成丝。",
+      "辣椒油可以根据个人口味调整用量。",
+      "可以加入花生碎增加口感。"
+    ],
+    "nutrition": {
+      "calories": 80,
+      "protein": 14.0,
+      "fat": 2.0,
+      "carbs": 2.0
+    }
   },
   {
     "id": 20,
@@ -596,27 +1815,80 @@
     "category": "减脂餐",
     "description": "清炒虾仁是一道高蛋白低脂肪的快手菜，虾仁鲜嫩，清淡爽口。",
     "ingredients": [
-      {"name": "虾仁", "amount": "300克", "weight": "300克"},
-      {"name": "姜", "amount": "3片", "weight": "15克"},
-      {"name": "葱", "amount": "适量", "weight": "10克"}
+      {
+        "name": "虾仁",
+        "amount": "300克",
+        "weight": "300克"
+      },
+      {
+        "name": "姜",
+        "amount": "3片",
+        "weight": "15克"
+      },
+      {
+        "name": "葱",
+        "amount": "适量",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "白胡椒粉", "amount": "适量", "weight": "1克"}
+      {
+        "name": "橄榄油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "白胡椒粉",
+        "amount": "适量",
+        "weight": "1克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "虾仁洗净，用料酒和白胡椒粉腌制5分钟。"},
-      {"step": 2, "description": "姜切丝，葱切段。"},
-      {"step": 3, "description": "锅中倒入橄榄油，放入姜丝爆香。"},
-      {"step": 4, "description": "放入虾仁，大火快速翻炒至变色。"},
-      {"step": 5, "description": "加入盐调味，撒上葱段翻炒均匀即可出锅。"}
+      {
+        "step": 1,
+        "description": "虾仁洗净，用料酒和白胡椒粉腌制5分钟。"
+      },
+      {
+        "step": 2,
+        "description": "姜切丝，葱切段。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入橄榄油，放入姜丝爆香。"
+      },
+      {
+        "step": 4,
+        "description": "放入虾仁，大火快速翻炒至变色。"
+      },
+      {
+        "step": 5,
+        "description": "加入盐调味，撒上葱段翻炒均匀即可出锅。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["虾仁不要炒太久，避免口感变老。", "使用橄榄油更健康。", "可以搭配西兰花或其他蔬菜一起食用。"]
+    "tips": [
+      "虾仁不要炒太久，避免口感变老。",
+      "使用橄榄油更健康。",
+      "可以搭配西兰花或其他蔬菜一起食用。"
+    ],
+    "nutrition": {
+      "calories": 85,
+      "protein": 16.0,
+      "fat": 1.5,
+      "carbs": 1.0
+    }
   },
   {
     "id": 21,
@@ -624,31 +1896,99 @@
     "category": "家常菜",
     "description": "青椒肉丝是一道非常经典的家常菜，肉丝嫩滑，青椒爽脆，简单快手。",
     "ingredients": [
-      {"name": "猪里脊肉", "amount": "250克", "weight": "250克"},
-      {"name": "青椒", "amount": "3个", "weight": "150克"},
-      {"name": "姜", "amount": "3片", "weight": "10克"},
-      {"name": "蒜", "amount": "2瓣", "weight": "8克"}
+      {
+        "name": "猪里脊肉",
+        "amount": "250克",
+        "weight": "250克"
+      },
+      {
+        "name": "青椒",
+        "amount": "3个",
+        "weight": "150克"
+      },
+      {
+        "name": "姜",
+        "amount": "3片",
+        "weight": "10克"
+      },
+      {
+        "name": "蒜",
+        "amount": "2瓣",
+        "weight": "8克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "淀粉", "amount": "1汤勺", "weight": "10克"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "鸡精", "amount": "少许", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "淀粉",
+        "amount": "1汤勺",
+        "weight": "10克"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "鸡精",
+        "amount": "少许",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "猪里脊肉切丝，加入料酒、生抽和淀粉，腌制10分钟。"},
-      {"step": 2, "description": "青椒去籽切丝，姜蒜切末。"},
-      {"step": 3, "description": "锅中倒入2汤勺食用油，烧至七成热，放入肉丝滑炒至变色，盛出备用。"},
-      {"step": 4, "description": "锅中留底油，放入姜蒜末爆香。"},
-      {"step": 5, "description": "放入青椒丝，大火翻炒1分钟。"},
-      {"step": 6, "description": "倒入肉丝，加入盐和鸡精，翻炒均匀即可出锅。"}
+      {
+        "step": 1,
+        "description": "猪里脊肉切丝，加入料酒、生抽和淀粉，腌制10分钟。"
+      },
+      {
+        "step": 2,
+        "description": "青椒去籽切丝，姜蒜切末。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入2汤勺食用油，烧至七成热，放入肉丝滑炒至变色，盛出备用。"
+      },
+      {
+        "step": 4,
+        "description": "锅中留底油，放入姜蒜末爆香。"
+      },
+      {
+        "step": 5,
+        "description": "放入青椒丝，大火翻炒1分钟。"
+      },
+      {
+        "step": 6,
+        "description": "倒入肉丝，加入盐和鸡精，翻炒均匀即可出锅。"
+      }
     ],
     "cookingTime": "15分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["肉丝要顺着纹理切，口感更嫩。", "青椒不要炒太久，保持脆嫩。", "可以加入少许醋提鲜。"]
+    "tips": [
+      "肉丝要顺着纹理切，口感更嫩。",
+      "青椒不要炒太久，保持脆嫩。",
+      "可以加入少许醋提鲜。"
+    ],
+    "nutrition": {
+      "calories": 120,
+      "protein": 14.0,
+      "fat": 5.0,
+      "carbs": 4.0
+    }
   },
   {
     "id": 22,
@@ -656,32 +1996,104 @@
     "category": "川菜",
     "description": "干煸豆角是一道经典川菜，豆角干香入味，配上肉末和辣椒，非常下饭。",
     "ingredients": [
-      {"name": "四季豆", "amount": "500克", "weight": "500克"},
-      {"name": "猪肉末", "amount": "100克", "weight": "100克"},
-      {"name": "干辣椒", "amount": "5个", "weight": "5克"},
-      {"name": "花椒", "amount": "1茶勺", "weight": "3克"},
-      {"name": "蒜", "amount": "3瓣", "weight": "10克"},
-      {"name": "姜", "amount": "适量", "weight": "5克"}
+      {
+        "name": "四季豆",
+        "amount": "500克",
+        "weight": "500克"
+      },
+      {
+        "name": "猪肉末",
+        "amount": "100克",
+        "weight": "100克"
+      },
+      {
+        "name": "干辣椒",
+        "amount": "5个",
+        "weight": "5克"
+      },
+      {
+        "name": "花椒",
+        "amount": "1茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "蒜",
+        "amount": "3瓣",
+        "weight": "10克"
+      },
+      {
+        "name": "姜",
+        "amount": "适量",
+        "weight": "5克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "3汤勺", "weight": "30毫升"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "料酒", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "糖", "amount": "1/2茶勺", "weight": "3克"}
+      {
+        "name": "食用油",
+        "amount": "3汤勺",
+        "weight": "30毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "糖",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "四季豆洗净，摘去两头和筋，掰成5厘米长的段。"},
-      {"step": 2, "description": "干辣椒剪成小段，蒜姜切末。"},
-      {"step": 3, "description": "锅中倒入3汤勺食用油，放入四季豆，中火煸炒至表皮起皱、微微发焦，盛出备用。"},
-      {"step": 4, "description": "锅中留底油，放入猪肉末炒至变色。"},
-      {"step": 5, "description": "加入干辣椒、花椒、蒜末和姜末，炒出香味。"},
-      {"step": 6, "description": "倒入四季豆，加入生抽、料酒、盐和糖，大火翻炒均匀即可出锅。"}
+      {
+        "step": 1,
+        "description": "四季豆洗净，摘去两头和筋，掰成5厘米长的段。"
+      },
+      {
+        "step": 2,
+        "description": "干辣椒剪成小段，蒜姜切末。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入3汤勺食用油，放入四季豆，中火煸炒至表皮起皱、微微发焦，盛出备用。"
+      },
+      {
+        "step": 4,
+        "description": "锅中留底油，放入猪肉末炒至变色。"
+      },
+      {
+        "step": 5,
+        "description": "加入干辣椒、花椒、蒜末和姜末，炒出香味。"
+      },
+      {
+        "step": 6,
+        "description": "倒入四季豆，加入生抽、料酒、盐和糖，大火翻炒均匀即可出锅。"
+      }
     ],
     "cookingTime": "20分钟",
     "difficulty": "中等",
     "servings": "2-3人份",
-    "tips": ["四季豆一定要煸炒至熟透，避免食物中毒。", "煸炒时火不要太大，避免外焦里生。", "可以根据个人口味调整辣椒用量。"]
+    "tips": [
+      "四季豆一定要煸炒至熟透，避免食物中毒。",
+      "煸炒时火不要太大，避免外焦里生。",
+      "可以根据个人口味调整辣椒用量。"
+    ],
+    "nutrition": {
+      "calories": 110,
+      "protein": 8.0,
+      "fat": 7.0,
+      "carbs": 5.0
+    }
   },
   {
     "id": 23,
@@ -689,28 +2101,84 @@
     "category": "家常菜",
     "description": "蛋炒饭是最基础也是最经典的中式炒饭，粒粒分明，蛋香浓郁。",
     "ingredients": [
-      {"name": "隔夜米饭", "amount": "2碗", "weight": "400克"},
-      {"name": "鸡蛋", "amount": "2个", "weight": "100克"},
-      {"name": "葱", "amount": "2根", "weight": "15克"},
-      {"name": "火腿肠", "amount": "1根", "weight": "60克"}
+      {
+        "name": "隔夜米饭",
+        "amount": "2碗",
+        "weight": "400克"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": "2个",
+        "weight": "100克"
+      },
+      {
+        "name": "葱",
+        "amount": "2根",
+        "weight": "15克"
+      },
+      {
+        "name": "火腿肠",
+        "amount": "1根",
+        "weight": "60克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "生抽", "amount": "1茶勺", "weight": "5毫升"}
+      {
+        "name": "食用油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "生抽",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "隔夜米饭提前打散，鸡蛋打散，葱切葱花，火腿肠切丁。"},
-      {"step": 2, "description": "锅中倒入2汤勺食用油，烧至七成热。"},
-      {"step": 3, "description": "倒入蛋液，快速翻炒至蛋液半凝固。"},
-      {"step": 4, "description": "立即倒入米饭，大火快速翻炒，使米饭粒粒裹上蛋液。"},
-      {"step": 5, "description": "加入火腿肠丁，继续翻炒1分钟。"},
-      {"step": 6, "description": "加入盐和生抽调味，撒上葱花翻炒均匀即可出锅。"}
+      {
+        "step": 1,
+        "description": "隔夜米饭提前打散，鸡蛋打散，葱切葱花，火腿肠切丁。"
+      },
+      {
+        "step": 2,
+        "description": "锅中倒入2汤勺食用油，烧至七成热。"
+      },
+      {
+        "step": 3,
+        "description": "倒入蛋液，快速翻炒至蛋液半凝固。"
+      },
+      {
+        "step": 4,
+        "description": "立即倒入米饭，大火快速翻炒，使米饭粒粒裹上蛋液。"
+      },
+      {
+        "step": 5,
+        "description": "加入火腿肠丁，继续翻炒1分钟。"
+      },
+      {
+        "step": 6,
+        "description": "加入盐和生抽调味，撒上葱花翻炒均匀即可出锅。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["一定要用隔夜米饭，水分少，炒出来粒粒分明。", "炒饭时火要大，快速翻炒。", "蛋液半凝固时就倒入米饭，这样蛋更嫩。"]
+    "tips": [
+      "一定要用隔夜米饭，水分少，炒出来粒粒分明。",
+      "炒饭时火要大，快速翻炒。",
+      "蛋液半凝固时就倒入米饭，这样蛋更嫩。"
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 6.0,
+      "fat": 8.0,
+      "carbs": 22.0
+    }
   },
   {
     "id": 24,
@@ -718,33 +2186,108 @@
     "category": "家常菜",
     "description": "红烧茄子是一道非常下饭的家常菜，茄子软糯入味，酱香浓郁。",
     "ingredients": [
-      {"name": "茄子", "amount": "2根", "weight": "400克"},
-      {"name": "蒜", "amount": "4瓣", "weight": "15克"},
-      {"name": "葱", "amount": "适量", "weight": "10克"},
-      {"name": "小米椒", "amount": "2个", "weight": "5克"}
+      {
+        "name": "茄子",
+        "amount": "2根",
+        "weight": "400克"
+      },
+      {
+        "name": "蒜",
+        "amount": "4瓣",
+        "weight": "15克"
+      },
+      {
+        "name": "葱",
+        "amount": "适量",
+        "weight": "10克"
+      },
+      {
+        "name": "小米椒",
+        "amount": "2个",
+        "weight": "5克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "3汤勺", "weight": "30毫升"},
-      {"name": "生抽", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "老抽", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "糖", "amount": "1茶勺", "weight": "5克"},
-      {"name": "醋", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "淀粉", "amount": "1汤勺", "weight": "10克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "3汤勺",
+        "weight": "30毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "老抽",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "糖",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "醋",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "淀粉",
+        "amount": "1汤勺",
+        "weight": "10克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "茄子洗净，切成滚刀块，撒少许盐腌制10分钟，挤去水分。"},
-      {"step": 2, "description": "蒜切末，葱切花，小米椒切圈。"},
-      {"step": 3, "description": "调酱汁：将生抽、老抽、糖、醋、淀粉和适量水混合均匀。"},
-      {"step": 4, "description": "锅中倒入3汤勺食用油，放入茄子块煎至两面金黄，盛出备用。"},
-      {"step": 5, "description": "锅中留底油，放入蒜末和小米椒爆香。"},
-      {"step": 6, "description": "倒入茄子，淋入调好的酱汁，翻炒均匀。"},
-      {"step": 7, "description": "小火焖煮2分钟，大火收汁，撒上葱花即可出锅。"}
+      {
+        "step": 1,
+        "description": "茄子洗净，切成滚刀块，撒少许盐腌制10分钟，挤去水分。"
+      },
+      {
+        "step": 2,
+        "description": "蒜切末，葱切花，小米椒切圈。"
+      },
+      {
+        "step": 3,
+        "description": "调酱汁：将生抽、老抽、糖、醋、淀粉和适量水混合均匀。"
+      },
+      {
+        "step": 4,
+        "description": "锅中倒入3汤勺食用油，放入茄子块煎至两面金黄，盛出备用。"
+      },
+      {
+        "step": 5,
+        "description": "锅中留底油，放入蒜末和小米椒爆香。"
+      },
+      {
+        "step": 6,
+        "description": "倒入茄子，淋入调好的酱汁，翻炒均匀。"
+      },
+      {
+        "step": 7,
+        "description": "小火焖煮2分钟，大火收汁，撒上葱花即可出锅。"
+      }
     ],
     "cookingTime": "25分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["茄子先用盐腌制可以减少吸油。", "茄子煎至金黄口感更好。", "酱汁要提前调好，方便操作。"]
+    "tips": [
+      "茄子先用盐腌制可以减少吸油。",
+      "茄子煎至金黄口感更好。",
+      "酱汁要提前调好，方便操作。"
+    ],
+    "nutrition": {
+      "calories": 90,
+      "protein": 2.0,
+      "fat": 5.0,
+      "carbs": 9.0
+    }
   },
   {
     "id": 25,
@@ -752,36 +2295,123 @@
     "category": "川菜",
     "description": "水煮牛肉是四川经典名菜，麻辣鲜香，牛肉嫩滑，配菜入味。",
     "ingredients": [
-      {"name": "牛里脊肉", "amount": "300克", "weight": "300克"},
-      {"name": "豆芽", "amount": "200克", "weight": "200克"},
-      {"name": "生菜", "amount": "1颗", "weight": "100克"},
-      {"name": "干辣椒", "amount": "10个", "weight": "10克"},
-      {"name": "花椒", "amount": "1汤勺", "weight": "5克"},
-      {"name": "蒜", "amount": "4瓣", "weight": "15克"},
-      {"name": "姜", "amount": "适量", "weight": "10克"}
+      {
+        "name": "牛里脊肉",
+        "amount": "300克",
+        "weight": "300克"
+      },
+      {
+        "name": "豆芽",
+        "amount": "200克",
+        "weight": "200克"
+      },
+      {
+        "name": "生菜",
+        "amount": "1颗",
+        "weight": "100克"
+      },
+      {
+        "name": "干辣椒",
+        "amount": "10个",
+        "weight": "10克"
+      },
+      {
+        "name": "花椒",
+        "amount": "1汤勺",
+        "weight": "5克"
+      },
+      {
+        "name": "蒜",
+        "amount": "4瓣",
+        "weight": "15克"
+      },
+      {
+        "name": "姜",
+        "amount": "适量",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "3汤勺", "weight": "30毫升"},
-      {"name": "豆瓣酱", "amount": "2汤勺", "weight": "30克"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "淀粉", "amount": "1汤勺", "weight": "10克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"},
-      {"name": "花椒粉", "amount": "1茶勺", "weight": "3克"}
+      {
+        "name": "食用油",
+        "amount": "3汤勺",
+        "weight": "30毫升"
+      },
+      {
+        "name": "豆瓣酱",
+        "amount": "2汤勺",
+        "weight": "30克"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "淀粉",
+        "amount": "1汤勺",
+        "weight": "10克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      },
+      {
+        "name": "花椒粉",
+        "amount": "1茶勺",
+        "weight": "3克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "牛里脊肉逆纹切薄片，加入料酒、生抽和淀粉，腌制15分钟。"},
-      {"step": 2, "description": "豆芽洗净，生菜撕成大块，干辣椒剪段，蒜姜切末。"},
-      {"step": 3, "description": "锅中倒入少许油，放入豆芽和生菜炒至断生，铺在碗底。"},
-      {"step": 4, "description": "锅中倒入3汤勺食用油，放入豆瓣酱、姜末和蒜末炒出红油。"},
-      {"step": 5, "description": "加入适量清水烧开，放入牛肉片，煮至变色后捞出，铺在蔬菜上。"},
-      {"step": 6, "description": "将汤汁淋入碗中，撒上干辣椒段、花椒和花椒粉。"},
-      {"step": 7, "description": "另起锅烧热2汤勺油，淋在辣椒和花椒上，激出香味即可。"}
+      {
+        "step": 1,
+        "description": "牛里脊肉逆纹切薄片，加入料酒、生抽和淀粉，腌制15分钟。"
+      },
+      {
+        "step": 2,
+        "description": "豆芽洗净，生菜撕成大块，干辣椒剪段，蒜姜切末。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入少许油，放入豆芽和生菜炒至断生，铺在碗底。"
+      },
+      {
+        "step": 4,
+        "description": "锅中倒入3汤勺食用油，放入豆瓣酱、姜末和蒜末炒出红油。"
+      },
+      {
+        "step": 5,
+        "description": "加入适量清水烧开，放入牛肉片，煮至变色后捞出，铺在蔬菜上。"
+      },
+      {
+        "step": 6,
+        "description": "将汤汁淋入碗中，撒上干辣椒段、花椒和花椒粉。"
+      },
+      {
+        "step": 7,
+        "description": "另起锅烧热2汤勺油，淋在辣椒和花椒上，激出香味即可。"
+      }
     ],
     "cookingTime": "30分钟",
     "difficulty": "中等",
     "servings": "2-3人份",
-    "tips": ["牛肉要逆纹切，口感更嫩。", "牛肉不要煮太久，变色即可捞出。", "最后淋热油是关键步骤，可以激发出麻辣香味。"]
+    "tips": [
+      "牛肉要逆纹切，口感更嫩。",
+      "牛肉不要煮太久，变色即可捞出。",
+      "最后淋热油是关键步骤，可以激发出麻辣香味。"
+    ],
+    "nutrition": {
+      "calories": 140,
+      "protein": 16.0,
+      "fat": 8.0,
+      "carbs": 2.0
+    }
   },
   {
     "id": 26,
@@ -789,28 +2419,84 @@
     "category": "家常菜",
     "description": "紫菜蛋花汤是一道简单快手的家常汤品，清淡鲜美，营养丰富。",
     "ingredients": [
-      {"name": "紫菜", "amount": "1小块", "weight": "10克"},
-      {"name": "鸡蛋", "amount": "2个", "weight": "100克"},
-      {"name": "葱", "amount": "适量", "weight": "10克"}
+      {
+        "name": "紫菜",
+        "amount": "1小块",
+        "weight": "10克"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": "2个",
+        "weight": "100克"
+      },
+      {
+        "name": "葱",
+        "amount": "适量",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "香油", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "鸡精", "amount": "少许", "weight": "2克"},
-      {"name": "白胡椒粉", "amount": "少许", "weight": "1克"}
+      {
+        "name": "香油",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "鸡精",
+        "amount": "少许",
+        "weight": "2克"
+      },
+      {
+        "name": "白胡椒粉",
+        "amount": "少许",
+        "weight": "1克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "紫菜用清水泡软，撕成小块；鸡蛋打散；葱切葱花。"},
-      {"step": 2, "description": "锅中加入适量清水，大火烧开。"},
-      {"step": 3, "description": "放入紫菜，搅拌均匀。"},
-      {"step": 4, "description": "将蛋液沿锅边缓缓倒入，待蛋花浮起后轻轻搅拌。"},
-      {"step": 5, "description": "加入盐、鸡精和白胡椒粉调味。"},
-      {"step": 6, "description": "出锅前淋上香油，撒上葱花即可。"}
+      {
+        "step": 1,
+        "description": "紫菜用清水泡软，撕成小块；鸡蛋打散；葱切葱花。"
+      },
+      {
+        "step": 2,
+        "description": "锅中加入适量清水，大火烧开。"
+      },
+      {
+        "step": 3,
+        "description": "放入紫菜，搅拌均匀。"
+      },
+      {
+        "step": 4,
+        "description": "将蛋液沿锅边缓缓倒入，待蛋花浮起后轻轻搅拌。"
+      },
+      {
+        "step": 5,
+        "description": "加入盐、鸡精和白胡椒粉调味。"
+      },
+      {
+        "step": 6,
+        "description": "出锅前淋上香油，撒上葱花即可。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2-3人份",
-    "tips": ["蛋液要沿锅边缓缓倒入，这样蛋花更漂亮。", "不要过度搅拌，保持蛋花的完整性。", "可以根据个人喜好加入虾皮或豆腐。"]
+    "tips": [
+      "蛋液要沿锅边缓缓倒入，这样蛋花更漂亮。",
+      "不要过度搅拌，保持蛋花的完整性。",
+      "可以根据个人喜好加入虾皮或豆腐。"
+    ],
+    "nutrition": {
+      "calories": 30,
+      "protein": 3.0,
+      "fat": 1.5,
+      "carbs": 2.0
+    }
   },
   {
     "id": 27,
@@ -818,26 +2504,75 @@
     "category": "减脂餐",
     "description": "秋葵炒蛋是一道营养丰富的减脂菜品，秋葵富含膳食纤维，搭配鸡蛋高蛋白低脂。",
     "ingredients": [
-      {"name": "秋葵", "amount": "200克", "weight": "200克"},
-      {"name": "鸡蛋", "amount": "3个", "weight": "150克"},
-      {"name": "蒜", "amount": "2瓣", "weight": "8克"}
+      {
+        "name": "秋葵",
+        "amount": "200克",
+        "weight": "200克"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": "3个",
+        "weight": "150克"
+      },
+      {
+        "name": "蒜",
+        "amount": "2瓣",
+        "weight": "8克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "生抽", "amount": "1茶勺", "weight": "5毫升"}
+      {
+        "name": "橄榄油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "生抽",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "秋葵洗净，去蒂，切成小段；鸡蛋打散；蒜切末。"},
-      {"step": 2, "description": "锅中烧水，放入秋葵焯水1分钟，捞出沥干。"},
-      {"step": 3, "description": "锅中倒入橄榄油，放入蒜末爆香。"},
-      {"step": 4, "description": "倒入蛋液，待底部凝固时放入秋葵。"},
-      {"step": 5, "description": "轻轻翻炒至鸡蛋完全凝固，加入盐和生抽调味即可出锅。"}
+      {
+        "step": 1,
+        "description": "秋葵洗净，去蒂，切成小段；鸡蛋打散；蒜切末。"
+      },
+      {
+        "step": 2,
+        "description": "锅中烧水，放入秋葵焯水1分钟，捞出沥干。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入橄榄油，放入蒜末爆香。"
+      },
+      {
+        "step": 4,
+        "description": "倒入蛋液，待底部凝固时放入秋葵。"
+      },
+      {
+        "step": 5,
+        "description": "轻轻翻炒至鸡蛋完全凝固，加入盐和生抽调味即可出锅。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["秋葵焯水可以去除黏液，口感更好。", "不要炒太久，保持秋葵的脆嫩。", "秋葵富含膳食纤维，有助于减脂。"]
+    "tips": [
+      "秋葵焯水可以去除黏液，口感更好。",
+      "不要炒太久，保持秋葵的脆嫩。",
+      "秋葵富含膳食纤维，有助于减脂。"
+    ],
+    "nutrition": {
+      "calories": 75,
+      "protein": 6.0,
+      "fat": 4.5,
+      "carbs": 3.0
+    }
   },
   {
     "id": 28,
@@ -845,32 +2580,104 @@
     "category": "减脂餐",
     "description": "牛肉西兰花是一道高蛋白低脂肪的经典减脂菜，牛肉鲜嫩，西兰花爽脆。",
     "ingredients": [
-      {"name": "牛里脊肉", "amount": "200克", "weight": "200克"},
-      {"name": "西兰花", "amount": "1颗", "weight": "300克"},
-      {"name": "蒜", "amount": "3瓣", "weight": "10克"},
-      {"name": "姜", "amount": "适量", "weight": "5克"}
+      {
+        "name": "牛里脊肉",
+        "amount": "200克",
+        "weight": "200克"
+      },
+      {
+        "name": "西兰花",
+        "amount": "1颗",
+        "weight": "300克"
+      },
+      {
+        "name": "蒜",
+        "amount": "3瓣",
+        "weight": "10克"
+      },
+      {
+        "name": "姜",
+        "amount": "适量",
+        "weight": "5克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "料酒", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "蚝油", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "淀粉", "amount": "1茶勺", "weight": "5克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"},
-      {"name": "黑胡椒", "amount": "适量", "weight": "1克"}
+      {
+        "name": "橄榄油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "蚝油",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "淀粉",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      },
+      {
+        "name": "黑胡椒",
+        "amount": "适量",
+        "weight": "1克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "牛里脊肉逆纹切薄片，加入料酒、生抽和淀粉腌制10分钟。"},
-      {"step": 2, "description": "西兰花切小朵，焯水1分钟捞出；蒜切末，姜切丝。"},
-      {"step": 3, "description": "锅中倒入橄榄油，放入姜丝和蒜末爆香。"},
-      {"step": 4, "description": "放入牛肉片，大火快速翻炒至变色。"},
-      {"step": 5, "description": "加入西兰花，倒入蚝油，翻炒均匀。"},
-      {"step": 6, "description": "加入盐和黑胡椒调味即可出锅。"}
+      {
+        "step": 1,
+        "description": "牛里脊肉逆纹切薄片，加入料酒、生抽和淀粉腌制10分钟。"
+      },
+      {
+        "step": 2,
+        "description": "西兰花切小朵，焯水1分钟捞出；蒜切末，姜切丝。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入橄榄油，放入姜丝和蒜末爆香。"
+      },
+      {
+        "step": 4,
+        "description": "放入牛肉片，大火快速翻炒至变色。"
+      },
+      {
+        "step": 5,
+        "description": "加入西兰花，倒入蚝油，翻炒均匀。"
+      },
+      {
+        "step": 6,
+        "description": "加入盐和黑胡椒调味即可出锅。"
+      }
     ],
     "cookingTime": "15分钟",
     "difficulty": "简单",
     "servings": "1-2人份",
-    "tips": ["牛肉逆纹切口感更嫩。", "大火快炒，保持牛肉的嫩滑。", "西兰花焯水时间不要太长，保持脆嫩。"]
+    "tips": [
+      "牛肉逆纹切口感更嫩。",
+      "大火快炒，保持牛肉的嫩滑。",
+      "西兰花焯水时间不要太长，保持脆嫩。"
+    ],
+    "nutrition": {
+      "calories": 100,
+      "protein": 14.0,
+      "fat": 3.0,
+      "carbs": 3.0
+    }
   },
   {
     "id": 29,
@@ -878,32 +2685,104 @@
     "category": "减脂餐",
     "description": "鸡肉蔬菜卷是一道创意减脂餐，用生菜叶包裹鸡肉和蔬菜，低卡又饱腹。",
     "ingredients": [
-      {"name": "鸡胸肉", "amount": "1块", "weight": "200克"},
-      {"name": "生菜", "amount": "1颗", "weight": "100克"},
-      {"name": "胡萝卜", "amount": "1根", "weight": "100克"},
-      {"name": "黄瓜", "amount": "半根", "weight": "100克"},
-      {"name": "紫甘蓝", "amount": "适量", "weight": "50克"}
+      {
+        "name": "鸡胸肉",
+        "amount": "1块",
+        "weight": "200克"
+      },
+      {
+        "name": "生菜",
+        "amount": "1颗",
+        "weight": "100克"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": "1根",
+        "weight": "100克"
+      },
+      {
+        "name": "黄瓜",
+        "amount": "半根",
+        "weight": "100克"
+      },
+      {
+        "name": "紫甘蓝",
+        "amount": "适量",
+        "weight": "50克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "料酒", "amount": "1茶勺", "weight": "5毫升"},
-      {"name": "盐", "amount": "适量", "weight": "2克"},
-      {"name": "黑胡椒", "amount": "适量", "weight": "1克"},
-      {"name": "甜辣酱", "amount": "1汤勺", "weight": "15克"}
+      {
+        "name": "橄榄油",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      },
+      {
+        "name": "黑胡椒",
+        "amount": "适量",
+        "weight": "1克"
+      },
+      {
+        "name": "甜辣酱",
+        "amount": "1汤勺",
+        "weight": "15克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鸡胸肉用生抽、料酒、盐和黑胡椒腌制15分钟。"},
-      {"step": 2, "description": "锅中倒入橄榄油，放入鸡胸肉煎至两面金黄熟透，取出切条。"},
-      {"step": 3, "description": "胡萝卜和黄瓜切丝，紫甘蓝切丝。"},
-      {"step": 4, "description": "生菜叶洗净，沥干水分。"},
-      {"step": 5, "description": "取一片生菜叶，放入鸡肉条和蔬菜丝。"},
-      {"step": 6, "description": "淋上甜辣酱，卷起来即可食用。"}
+      {
+        "step": 1,
+        "description": "鸡胸肉用生抽、料酒、盐和黑胡椒腌制15分钟。"
+      },
+      {
+        "step": 2,
+        "description": "锅中倒入橄榄油，放入鸡胸肉煎至两面金黄熟透，取出切条。"
+      },
+      {
+        "step": 3,
+        "description": "胡萝卜和黄瓜切丝，紫甘蓝切丝。"
+      },
+      {
+        "step": 4,
+        "description": "生菜叶洗净，沥干水分。"
+      },
+      {
+        "step": 5,
+        "description": "取一片生菜叶，放入鸡肉条和蔬菜丝。"
+      },
+      {
+        "step": 6,
+        "description": "淋上甜辣酱，卷起来即可食用。"
+      }
     ],
     "cookingTime": "25分钟",
     "difficulty": "简单",
     "servings": "1-2人份",
-    "tips": ["鸡胸肉不要煎太久，避免口感变柴。", "生菜叶要选择大片完整的，方便包裹。", "酱料可以根据个人喜好更换。"]
+    "tips": [
+      "鸡胸肉不要煎太久，避免口感变柴。",
+      "生菜叶要选择大片完整的，方便包裹。",
+      "酱料可以根据个人喜好更换。"
+    ],
+    "nutrition": {
+      "calories": 70,
+      "protein": 10.0,
+      "fat": 1.5,
+      "carbs": 4.0
+    }
   },
   {
     "id": 30,
@@ -911,28 +2790,84 @@
     "category": "减脂餐",
     "description": "蚝油生菜是一道简单快手的低卡菜品，生菜清脆爽口，蚝油提鲜增味。",
     "ingredients": [
-      {"name": "生菜", "amount": "2颗", "weight": "400克"},
-      {"name": "蒜", "amount": "4瓣", "weight": "15克"}
+      {
+        "name": "生菜",
+        "amount": "2颗",
+        "weight": "400克"
+      },
+      {
+        "name": "蒜",
+        "amount": "4瓣",
+        "weight": "15克"
+      }
     ],
     "seasonings": [
-      {"name": "蚝油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "糖", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "淀粉", "amount": "1茶勺", "weight": "5克"},
-      {"name": "食用油", "amount": "1汤勺", "weight": "10毫升"}
+      {
+        "name": "蚝油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "糖",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "淀粉",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "食用油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "生菜洗净，掰成大片；蒜切末。"},
-      {"step": 2, "description": "锅中烧水，加入少许盐和油，放入生菜焯水30秒，捞出摆盘。"},
-      {"step": 3, "description": "调酱汁：将蚝油、生抽、糖、淀粉和适量水混合均匀。"},
-      {"step": 4, "description": "锅中倒入食用油，放入蒜末爆香。"},
-      {"step": 5, "description": "倒入调好的酱汁，小火煮至浓稠。"},
-      {"step": 6, "description": "将酱汁淋在生菜上即可。"}
+      {
+        "step": 1,
+        "description": "生菜洗净，掰成大片；蒜切末。"
+      },
+      {
+        "step": 2,
+        "description": "锅中烧水，加入少许盐和油，放入生菜焯水30秒，捞出摆盘。"
+      },
+      {
+        "step": 3,
+        "description": "调酱汁：将蚝油、生抽、糖、淀粉和适量水混合均匀。"
+      },
+      {
+        "step": 4,
+        "description": "锅中倒入食用油，放入蒜末爆香。"
+      },
+      {
+        "step": 5,
+        "description": "倒入调好的酱汁，小火煮至浓稠。"
+      },
+      {
+        "step": 6,
+        "description": "将酱汁淋在生菜上即可。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["生菜焯水时间要短，保持脆嫩口感。", "焯水时加盐和油可以保持蔬菜的翠绿色。", "蚝油本身有咸味，盐可以少放或不放。"]
+    "tips": [
+      "生菜焯水时间要短，保持脆嫩口感。",
+      "焯水时加盐和油可以保持蔬菜的翠绿色。",
+      "蚝油本身有咸味，盐可以少放或不放。"
+    ],
+    "nutrition": {
+      "calories": 30,
+      "protein": 1.5,
+      "fat": 1.0,
+      "carbs": 3.5
+    }
   },
   {
     "id": 31,
@@ -940,33 +2875,109 @@
     "category": "川菜",
     "description": "辣子鸡是重庆经典名菜，干辣椒和花椒炒出的香辣风味，鸡肉外酥里嫩。",
     "ingredients": [
-      {"name": "鸡腿肉", "amount": "500克", "weight": "500克"},
-      {"name": "干辣椒", "amount": "50克", "weight": "50克"},
-      {"name": "花椒", "amount": "1汤勺", "weight": "10克"},
-      {"name": "姜", "amount": "5片", "weight": "15克"},
-      {"name": "蒜", "amount": "5瓣", "weight": "15克"},
-      {"name": "葱", "amount": "2根", "weight": "15克"}
+      {
+        "name": "鸡腿肉",
+        "amount": "500克",
+        "weight": "500克"
+      },
+      {
+        "name": "干辣椒",
+        "amount": "50克",
+        "weight": "50克"
+      },
+      {
+        "name": "花椒",
+        "amount": "1汤勺",
+        "weight": "10克"
+      },
+      {
+        "name": "姜",
+        "amount": "5片",
+        "weight": "15克"
+      },
+      {
+        "name": "蒜",
+        "amount": "5瓣",
+        "weight": "15克"
+      },
+      {
+        "name": "葱",
+        "amount": "2根",
+        "weight": "15克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "3汤勺", "weight": "30毫升"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "1茶勺", "weight": "5克"},
-      {"name": "糖", "amount": "1茶勺", "weight": "5克"},
-      {"name": "白芝麻", "amount": "适量", "weight": "5克"}
+      {
+        "name": "食用油",
+        "amount": "3汤勺",
+        "weight": "30毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "糖",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "白芝麻",
+        "amount": "适量",
+        "weight": "5克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鸡腿肉洗净，切成2厘米见方的丁，加入料酒、生抽和少许盐腌制15分钟。"},
-      {"step": 2, "description": "干辣椒剪成小段，花椒备用，姜蒜切片，葱切段。"},
-      {"step": 3, "description": "锅中倒入3汤勺食用油，烧至七成热，放入鸡丁炸至金黄酥脆，捞出备用。"},
-      {"step": 4, "description": "锅中留底油，放入干辣椒段和花椒，小火炒出香辣味。"},
-      {"step": 5, "description": "加入姜蒜片和葱段，翻炒出香味。"},
-      {"step": 6, "description": "倒入炸好的鸡丁，加入盐、糖和白芝麻，大火快速翻炒均匀即可出锅。"}
+      {
+        "step": 1,
+        "description": "鸡腿肉洗净，切成2厘米见方的丁，加入料酒、生抽和少许盐腌制15分钟。"
+      },
+      {
+        "step": 2,
+        "description": "干辣椒剪成小段，花椒备用，姜蒜切片，葱切段。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入3汤勺食用油，烧至七成热，放入鸡丁炸至金黄酥脆，捞出备用。"
+      },
+      {
+        "step": 4,
+        "description": "锅中留底油，放入干辣椒段和花椒，小火炒出香辣味。"
+      },
+      {
+        "step": 5,
+        "description": "加入姜蒜片和葱段，翻炒出香味。"
+      },
+      {
+        "step": 6,
+        "description": "倒入炸好的鸡丁，加入盐、糖和白芝麻，大火快速翻炒均匀即可出锅。"
+      }
     ],
     "cookingTime": "30分钟",
     "difficulty": "中等",
     "servings": "2-3人份",
-    "tips": ["鸡肉要炸至酥脆口感才好。", "干辣椒的量可以根据个人口味调整。", "炒辣椒时火不要太大，避免炒糊。"]
+    "tips": [
+      "鸡肉要炸至酥脆口感才好。",
+      "干辣椒的量可以根据个人口味调整。",
+      "炒辣椒时火不要太大，避免炒糊。"
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 18.0,
+      "fat": 10.0,
+      "carbs": 3.0
+    }
   },
   {
     "id": 32,
@@ -974,34 +2985,112 @@
     "category": "川菜",
     "description": "酸菜鱼是四川传统名菜，鱼肉鲜嫩，酸菜开胃，汤鲜味美。",
     "ingredients": [
-      {"name": "草鱼", "amount": "1条", "weight": "750克"},
-      {"name": "酸菜", "amount": "200克", "weight": "200克"},
-      {"name": "豆芽", "amount": "100克", "weight": "100克"},
-      {"name": "泡椒", "amount": "5个", "weight": "15克"},
-      {"name": "姜", "amount": "5片", "weight": "15克"},
-      {"name": "蒜", "amount": "5瓣", "weight": "15克"}
+      {
+        "name": "草鱼",
+        "amount": "1条",
+        "weight": "750克"
+      },
+      {
+        "name": "酸菜",
+        "amount": "200克",
+        "weight": "200克"
+      },
+      {
+        "name": "豆芽",
+        "amount": "100克",
+        "weight": "100克"
+      },
+      {
+        "name": "泡椒",
+        "amount": "5个",
+        "weight": "15克"
+      },
+      {
+        "name": "姜",
+        "amount": "5片",
+        "weight": "15克"
+      },
+      {
+        "name": "蒜",
+        "amount": "5瓣",
+        "weight": "15克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "1茶勺", "weight": "5克"},
-      {"name": "白胡椒粉", "amount": "1/2茶勺", "weight": "2克"},
-      {"name": "淀粉", "amount": "1汤勺", "weight": "10克"}
+      {
+        "name": "食用油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "白胡椒粉",
+        "amount": "1/2茶勺",
+        "weight": "2克"
+      },
+      {
+        "name": "淀粉",
+        "amount": "1汤勺",
+        "weight": "10克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "草鱼处理干净，鱼肉切成薄片，鱼骨和鱼头剁成块。"},
-      {"step": 2, "description": "鱼片加入料酒、盐、白胡椒粉和淀粉，腌制15分钟。"},
-      {"step": 3, "description": "酸菜洗净切段，泡椒切碎，姜蒜切片。"},
-      {"step": 4, "description": "锅中倒入少许油，放入鱼骨和鱼头煎至两面金黄。"},
-      {"step": 5, "description": "加入适量清水，大火煮开后转小火煮10分钟，捞出鱼骨备用。"},
-      {"step": 6, "description": "锅中倒油，放入酸菜、泡椒、姜蒜片炒香。"},
-      {"step": 7, "description": "倒入鱼汤，放入豆芽煮熟，捞出铺在碗底。"},
-      {"step": 8, "description": "放入鱼片煮至变色，连汤一起倒入碗中即可。"}
+      {
+        "step": 1,
+        "description": "草鱼处理干净，鱼肉切成薄片，鱼骨和鱼头剁成块。"
+      },
+      {
+        "step": 2,
+        "description": "鱼片加入料酒、盐、白胡椒粉和淀粉，腌制15分钟。"
+      },
+      {
+        "step": 3,
+        "description": "酸菜洗净切段，泡椒切碎，姜蒜切片。"
+      },
+      {
+        "step": 4,
+        "description": "锅中倒入少许油，放入鱼骨和鱼头煎至两面金黄。"
+      },
+      {
+        "step": 5,
+        "description": "加入适量清水，大火煮开后转小火煮10分钟，捞出鱼骨备用。"
+      },
+      {
+        "step": 6,
+        "description": "锅中倒油，放入酸菜、泡椒、姜蒜片炒香。"
+      },
+      {
+        "step": 7,
+        "description": "倒入鱼汤，放入豆芽煮熟，捞出铺在碗底。"
+      },
+      {
+        "step": 8,
+        "description": "放入鱼片煮至变色，连汤一起倒入碗中即可。"
+      }
     ],
     "cookingTime": "40分钟",
     "difficulty": "中等",
     "servings": "3-4人份",
-    "tips": ["鱼片要切得薄一些，口感更嫩。", "鱼片下锅后不要过多翻动，避免破碎。", "酸菜要炒香后再加鱼汤，味道更好。"]
+    "tips": [
+      "鱼片要切得薄一些，口感更嫩。",
+      "鱼片下锅后不要过多翻动，避免破碎。",
+      "酸菜要炒香后再加鱼汤，味道更好。"
+    ],
+    "nutrition": {
+      "calories": 80,
+      "protein": 12.0,
+      "fat": 3.0,
+      "carbs": 1.0
+    }
   },
   {
     "id": 33,
@@ -1009,34 +3098,114 @@
     "category": "川菜",
     "description": "口水鸡是四川传统凉菜，麻辣鲜香，鸡肉嫩滑，是夏天的开胃佳品。",
     "ingredients": [
-      {"name": "三黄鸡", "amount": "1只", "weight": "1000克"},
-      {"name": "花生碎", "amount": "30克", "weight": "30克"},
-      {"name": "葱", "amount": "2根", "weight": "20克"},
-      {"name": "姜", "amount": "5片", "weight": "20克"},
-      {"name": "蒜", "amount": "5瓣", "weight": "15克"}
+      {
+        "name": "三黄鸡",
+        "amount": "1只",
+        "weight": "1000克"
+      },
+      {
+        "name": "花生碎",
+        "amount": "30克",
+        "weight": "30克"
+      },
+      {
+        "name": "葱",
+        "amount": "2根",
+        "weight": "20克"
+      },
+      {
+        "name": "姜",
+        "amount": "5片",
+        "weight": "20克"
+      },
+      {
+        "name": "蒜",
+        "amount": "5瓣",
+        "weight": "15克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "3汤勺", "weight": "30毫升"},
-      {"name": "花椒", "amount": "1汤勺", "weight": "10克"},
-      {"name": "干辣椒", "amount": "10个", "weight": "10克"},
-      {"name": "生抽", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "醋", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "糖", "amount": "1茶勺", "weight": "5克"},
-      {"name": "盐", "amount": "1茶勺", "weight": "5克"},
-      {"name": "花椒粉", "amount": "1茶勺", "weight": "3克"}
+      {
+        "name": "食用油",
+        "amount": "3汤勺",
+        "weight": "30毫升"
+      },
+      {
+        "name": "花椒",
+        "amount": "1汤勺",
+        "weight": "10克"
+      },
+      {
+        "name": "干辣椒",
+        "amount": "10个",
+        "weight": "10克"
+      },
+      {
+        "name": "生抽",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "醋",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "糖",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "盐",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "花椒粉",
+        "amount": "1茶勺",
+        "weight": "3克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "三黄鸡洗净，锅中加水，放入葱姜和料酒，煮开后放入鸡，小火煮15分钟。"},
-      {"step": 2, "description": "关火焖10分钟，捞出放入冰水中浸泡至凉透，切块摆盘。"},
-      {"step": 3, "description": "调制红油：锅中倒油，放入花椒和干辣椒，小火炸出香味，滤出红油。"},
-      {"step": 4, "description": "蒜切末，加入生抽、醋、糖、盐和花椒粉调成酱汁。"},
-      {"step": 5, "description": "将酱汁淋在鸡肉上，再淋上红油。"},
-      {"step": 6, "description": "撒上花生碎和葱花即可。"}
+      {
+        "step": 1,
+        "description": "三黄鸡洗净，锅中加水，放入葱姜和料酒，煮开后放入鸡，小火煮15分钟。"
+      },
+      {
+        "step": 2,
+        "description": "关火焖10分钟，捞出放入冰水中浸泡至凉透，切块摆盘。"
+      },
+      {
+        "step": 3,
+        "description": "调制红油：锅中倒油，放入花椒和干辣椒，小火炸出香味，滤出红油。"
+      },
+      {
+        "step": 4,
+        "description": "蒜切末，加入生抽、醋、糖、盐和花椒粉调成酱汁。"
+      },
+      {
+        "step": 5,
+        "description": "将酱汁淋在鸡肉上，再淋上红油。"
+      },
+      {
+        "step": 6,
+        "description": "撒上花生碎和葱花即可。"
+      }
     ],
     "cookingTime": "40分钟",
     "difficulty": "中等",
     "servings": "3-4人份",
-    "tips": ["鸡煮好后要放入冰水浸泡，口感更嫩。", "红油要趁热淋在调料上，香味更浓。", "可以提前做好，放入冰箱冷藏更入味。"]
+    "tips": [
+      "鸡煮好后要放入冰水浸泡，口感更嫩。",
+      "红油要趁热淋在调料上，香味更浓。",
+      "可以提前做好，放入冰箱冷藏更入味。"
+    ],
+    "nutrition": {
+      "calories": 160,
+      "protein": 20.0,
+      "fat": 8.0,
+      "carbs": 2.0
+    }
   },
   {
     "id": 34,
@@ -1044,26 +3213,76 @@
     "category": "家常菜",
     "description": "蒜蓉生菜是一道简单快手的家常菜，清爽解腻，蒜香浓郁。",
     "ingredients": [
-      {"name": "生菜", "amount": "2颗", "weight": "400克"},
-      {"name": "蒜", "amount": "8瓣", "weight": "25克"}
+      {
+        "name": "生菜",
+        "amount": "2颗",
+        "weight": "400克"
+      },
+      {
+        "name": "蒜",
+        "amount": "8瓣",
+        "weight": "25克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "蚝油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "糖", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "蚝油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "糖",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "生菜洗净，掰成大片；蒜切末。"},
-      {"step": 2, "description": "锅中烧水，加入少许盐和油，放入生菜焯水30秒，捞出沥干水分，摆在盘中。"},
-      {"step": 3, "description": "锅中倒入2汤勺食用油，放入蒜末，小火炒至金黄。"},
-      {"step": 4, "description": "加入蚝油、生抽、糖和少许清水，煮开后淋在生菜上即可。"}
+      {
+        "step": 1,
+        "description": "生菜洗净，掰成大片；蒜切末。"
+      },
+      {
+        "step": 2,
+        "description": "锅中烧水，加入少许盐和油，放入生菜焯水30秒，捞出沥干水分，摆在盘中。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入2汤勺食用油，放入蒜末，小火炒至金黄。"
+      },
+      {
+        "step": 4,
+        "description": "加入蚝油、生抽、糖和少许清水，煮开后淋在生菜上即可。"
+      }
     ],
     "cookingTime": "10分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["生菜焯水时间不要太长，保持脆嫩。", "蒜末要小火炒，避免炒糊。", "蚝油和生抽都有咸味，盐要少放。"]
+    "tips": [
+      "生菜焯水时间不要太长，保持脆嫩。",
+      "蒜末要小火炒，避免炒糊。",
+      "蚝油和生抽都有咸味，盐要少放。"
+    ],
+    "nutrition": {
+      "calories": 30,
+      "protein": 1.0,
+      "fat": 1.5,
+      "carbs": 2.5
+    }
   },
   {
     "id": 35,
@@ -1071,33 +3290,108 @@
     "category": "川菜",
     "description": "蚂蚁上树是四川传统名菜，肉末粘在粉丝上，形似蚂蚁爬树，香辣可口。",
     "ingredients": [
-      {"name": "粉丝", "amount": "100克", "weight": "100克"},
-      {"name": "猪肉末", "amount": "150克", "weight": "150克"},
-      {"name": "葱", "amount": "2根", "weight": "15克"},
-      {"name": "姜", "amount": "3片", "weight": "10克"},
-      {"name": "蒜", "amount": "3瓣", "weight": "10克"}
+      {
+        "name": "粉丝",
+        "amount": "100克",
+        "weight": "100克"
+      },
+      {
+        "name": "猪肉末",
+        "amount": "150克",
+        "weight": "150克"
+      },
+      {
+        "name": "葱",
+        "amount": "2根",
+        "weight": "15克"
+      },
+      {
+        "name": "姜",
+        "amount": "3片",
+        "weight": "10克"
+      },
+      {
+        "name": "蒜",
+        "amount": "3瓣",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "2汤勺", "weight": "20毫升"},
-      {"name": "豆瓣酱", "amount": "1汤勺", "weight": "15克"},
-      {"name": "生抽", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "糖", "amount": "1茶勺", "weight": "5克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "食用油",
+        "amount": "2汤勺",
+        "weight": "20毫升"
+      },
+      {
+        "name": "豆瓣酱",
+        "amount": "1汤勺",
+        "weight": "15克"
+      },
+      {
+        "name": "生抽",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "糖",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "粉丝提前用温水泡软，剪成约10厘米长的段。"},
-      {"step": 2, "description": "葱切葱花，姜蒜切末。"},
-      {"step": 3, "description": "锅中倒入2汤勺食用油，放入猪肉末炒至变色。"},
-      {"step": 4, "description": "加入姜蒜末和豆瓣酱，炒出红油。"},
-      {"step": 5, "description": "加入适量清水，放入粉丝，小火煮2-3分钟。"},
-      {"step": 6, "description": "加入生抽、料酒、糖和盐，大火翻炒收汁。"},
-      {"step": 7, "description": "撒上葱花即可出锅。"}
+      {
+        "step": 1,
+        "description": "粉丝提前用温水泡软，剪成约10厘米长的段。"
+      },
+      {
+        "step": 2,
+        "description": "葱切葱花，姜蒜切末。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入2汤勺食用油，放入猪肉末炒至变色。"
+      },
+      {
+        "step": 4,
+        "description": "加入姜蒜末和豆瓣酱，炒出红油。"
+      },
+      {
+        "step": 5,
+        "description": "加入适量清水，放入粉丝，小火煮2-3分钟。"
+      },
+      {
+        "step": 6,
+        "description": "加入生抽、料酒、糖和盐，大火翻炒收汁。"
+      },
+      {
+        "step": 7,
+        "description": "撒上葱花即可出锅。"
+      }
     ],
     "cookingTime": "20分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["粉丝要提前泡软但不要太软，保持弹性。", "煮粉丝时不要翻动太多，避免碎掉。", "水量要控制好，刚好没过粉丝即可。"]
+    "tips": [
+      "粉丝要提前泡软但不要太软，保持弹性。",
+      "煮粉丝时不要翻动太多，避免碎掉。",
+      "水量要控制好，刚好没过粉丝即可。"
+    ],
+    "nutrition": {
+      "calories": 150,
+      "protein": 8.0,
+      "fat": 7.0,
+      "carbs": 15.0
+    }
   },
   {
     "id": 36,
@@ -1105,29 +3399,89 @@
     "category": "家常菜",
     "description": "西红柿鸡蛋汤是经典的家常汤品，酸甜开胃，营养丰富，老少皆宜。",
     "ingredients": [
-      {"name": "西红柿", "amount": "2个", "weight": "300克"},
-      {"name": "鸡蛋", "amount": "2个", "weight": "100克"},
-      {"name": "葱", "amount": "1根", "weight": "10克"},
-      {"name": "香菜", "amount": "适量", "weight": "5克"}
+      {
+        "name": "西红柿",
+        "amount": "2个",
+        "weight": "300克"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": "2个",
+        "weight": "100克"
+      },
+      {
+        "name": "葱",
+        "amount": "1根",
+        "weight": "10克"
+      },
+      {
+        "name": "香菜",
+        "amount": "适量",
+        "weight": "5克"
+      }
     ],
     "seasonings": [
-      {"name": "食用油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "糖", "amount": "1茶勺", "weight": "5克"},
-      {"name": "香油", "amount": "几滴", "weight": "2毫升"}
+      {
+        "name": "食用油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "糖",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "香油",
+        "amount": "几滴",
+        "weight": "2毫升"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "西红柿洗净，用刀在顶部划十字，用开水烫一下去皮，切成小块。"},
-      {"step": 2, "description": "鸡蛋打散，葱切葱花，香菜切末。"},
-      {"step": 3, "description": "锅中倒入1汤勺食用油，放入西红柿块翻炒至出汁。"},
-      {"step": 4, "description": "加入适量清水，大火煮开。"},
-      {"step": 5, "description": "将蛋液沿锅边缓缓倒入，待蛋花浮起后轻轻搅拌。"},
-      {"step": 6, "description": "加入盐和糖调味，撒上葱花和香菜，淋上几滴香油即可。"}
+      {
+        "step": 1,
+        "description": "西红柿洗净，用刀在顶部划十字，用开水烫一下去皮，切成小块。"
+      },
+      {
+        "step": 2,
+        "description": "鸡蛋打散，葱切葱花，香菜切末。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入1汤勺食用油，放入西红柿块翻炒至出汁。"
+      },
+      {
+        "step": 4,
+        "description": "加入适量清水，大火煮开。"
+      },
+      {
+        "step": 5,
+        "description": "将蛋液沿锅边缓缓倒入，待蛋花浮起后轻轻搅拌。"
+      },
+      {
+        "step": 6,
+        "description": "加入盐和糖调味，撒上葱花和香菜，淋上几滴香油即可。"
+      }
     ],
     "cookingTime": "15分钟",
     "difficulty": "简单",
     "servings": "2-3人份",
-    "tips": ["西红柿去皮后口感更好。", "蛋液要沿锅边缓缓倒入，蛋花更漂亮。", "可以加入豆腐或金针菇增加口感。"]
+    "tips": [
+      "西红柿去皮后口感更好。",
+      "蛋液要沿锅边缓缓倒入，蛋花更漂亮。",
+      "可以加入豆腐或金针菇增加口感。"
+    ],
+    "nutrition": {
+      "calories": 45,
+      "protein": 3.0,
+      "fat": 2.5,
+      "carbs": 3.0
+    }
   },
   {
     "id": 37,
@@ -1135,29 +3489,89 @@
     "category": "减脂餐",
     "description": "三文鱼牛油果沙拉是一道高蛋白低碳水的减脂餐，健康美味，适合健身人群。",
     "ingredients": [
-      {"name": "三文鱼", "amount": "150克", "weight": "150克"},
-      {"name": "牛油果", "amount": "1个", "weight": "150克"},
-      {"name": "生菜", "amount": "1颗", "weight": "100克"},
-      {"name": "小番茄", "amount": "8个", "weight": "80克"},
-      {"name": "柠檬", "amount": "半个", "weight": "30克"}
+      {
+        "name": "三文鱼",
+        "amount": "150克",
+        "weight": "150克"
+      },
+      {
+        "name": "牛油果",
+        "amount": "1个",
+        "weight": "150克"
+      },
+      {
+        "name": "生菜",
+        "amount": "1颗",
+        "weight": "100克"
+      },
+      {
+        "name": "小番茄",
+        "amount": "8个",
+        "weight": "80克"
+      },
+      {
+        "name": "柠檬",
+        "amount": "半个",
+        "weight": "30克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "黑胡椒", "amount": "适量", "weight": "2克"},
-      {"name": "盐", "amount": "适量", "weight": "2克"}
+      {
+        "name": "橄榄油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "黑胡椒",
+        "amount": "适量",
+        "weight": "2克"
+      },
+      {
+        "name": "盐",
+        "amount": "适量",
+        "weight": "2克"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "三文鱼用盐和黑胡椒腌制10分钟。"},
-      {"step": 2, "description": "牛油果切开，去核挖出果肉切片；生菜洗净撕成小块；小番茄对半切开。"},
-      {"step": 3, "description": "锅中倒入少许橄榄油，放入三文鱼煎至两面金黄，取出切块。"},
-      {"step": 4, "description": "将生菜和小番茄放入碗中。"},
-      {"step": 5, "description": "放上三文鱼块和牛油果片。"},
-      {"step": 6, "description": "挤上柠檬汁，淋上橄榄油，撒上黑胡椒即可。"}
+      {
+        "step": 1,
+        "description": "三文鱼用盐和黑胡椒腌制10分钟。"
+      },
+      {
+        "step": 2,
+        "description": "牛油果切开，去核挖出果肉切片；生菜洗净撕成小块；小番茄对半切开。"
+      },
+      {
+        "step": 3,
+        "description": "锅中倒入少许橄榄油，放入三文鱼煎至两面金黄，取出切块。"
+      },
+      {
+        "step": 4,
+        "description": "将生菜和小番茄放入碗中。"
+      },
+      {
+        "step": 5,
+        "description": "放上三文鱼块和牛油果片。"
+      },
+      {
+        "step": 6,
+        "description": "挤上柠檬汁，淋上橄榄油，撒上黑胡椒即可。"
+      }
     ],
     "cookingTime": "20分钟",
     "difficulty": "简单",
     "servings": "1人份",
-    "tips": ["三文鱼不要煎太久，三分熟口感最好。", "牛油果要选择成熟度适中的。", "可以搭配全麦面包一起食用。"]
+    "tips": [
+      "三文鱼不要煎太久，三分熟口感最好。",
+      "牛油果要选择成熟度适中的。",
+      "可以搭配全麦面包一起食用。"
+    ],
+    "nutrition": {
+      "calories": 130,
+      "protein": 12.0,
+      "fat": 8.0,
+      "carbs": 3.0
+    }
   },
   {
     "id": 38,
@@ -1165,28 +3579,84 @@
     "category": "减脂餐",
     "description": "香煎鸡胸肉是一道经典减脂餐，外焦里嫩，简单易做，是健身人群的首选。",
     "ingredients": [
-      {"name": "鸡胸肉", "amount": "2块", "weight": "400克"},
-      {"name": "蒜", "amount": "3瓣", "weight": "10克"},
-      {"name": "迷迭香", "amount": "少许", "weight": "2克"}
+      {
+        "name": "鸡胸肉",
+        "amount": "2块",
+        "weight": "400克"
+      },
+      {
+        "name": "蒜",
+        "amount": "3瓣",
+        "weight": "10克"
+      },
+      {
+        "name": "迷迭香",
+        "amount": "少许",
+        "weight": "2克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "盐", "amount": "1茶勺", "weight": "5克"},
-      {"name": "黑胡椒", "amount": "1/2茶勺", "weight": "2克"},
-      {"name": "柠檬汁", "amount": "1汤勺", "weight": "10毫升"}
+      {
+        "name": "橄榄油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "盐",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "黑胡椒",
+        "amount": "1/2茶勺",
+        "weight": "2克"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鸡胸肉洗净，用刀从中间片成两片，使其厚薄均匀。"},
-      {"step": 2, "description": "用厨房纸吸干水分，两面撒上盐和黑胡椒，腌制10分钟。"},
-      {"step": 3, "description": "蒜切末，与迷迭香一起撒在鸡胸肉上。"},
-      {"step": 4, "description": "锅中倒入橄榄油，烧至七成热，放入鸡胸肉。"},
-      {"step": 5, "description": "小火煎4-5分钟，翻面再煎3-4分钟至金黄。"},
-      {"step": 6, "description": "出锅前挤上柠檬汁，切块装盘。"}
+      {
+        "step": 1,
+        "description": "鸡胸肉洗净，用刀从中间片成两片，使其厚薄均匀。"
+      },
+      {
+        "step": 2,
+        "description": "用厨房纸吸干水分，两面撒上盐和黑胡椒，腌制10分钟。"
+      },
+      {
+        "step": 3,
+        "description": "蒜切末，与迷迭香一起撒在鸡胸肉上。"
+      },
+      {
+        "step": 4,
+        "description": "锅中倒入橄榄油，烧至七成热，放入鸡胸肉。"
+      },
+      {
+        "step": 5,
+        "description": "小火煎4-5分钟，翻面再煎3-4分钟至金黄。"
+      },
+      {
+        "step": 6,
+        "description": "出锅前挤上柠檬汁，切块装盘。"
+      }
     ],
     "cookingTime": "25分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["鸡胸肉要吸干水分，煎的时候才不会有水分溅出。", "小火慢煎，鸡肉才会熟透且不柴。", "可以用牙签扎一下判断是否熟透。"]
+    "tips": [
+      "鸡胸肉要吸干水分，煎的时候才不会有水分溅出。",
+      "小火慢煎，鸡肉才会熟透且不柴。",
+      "可以用牙签扎一下判断是否熟透。"
+    ],
+    "nutrition": {
+      "calories": 120,
+      "protein": 22.0,
+      "fat": 2.5,
+      "carbs": 0.5
+    }
   },
   {
     "id": 39,
@@ -1194,32 +3664,103 @@
     "category": "减脂餐",
     "description": "番茄龙利鱼是一道低脂高蛋白的减脂菜，鱼肉嫩滑，番茄酸甜可口。",
     "ingredients": [
-      {"name": "龙利鱼", "amount": "300克", "weight": "300克"},
-      {"name": "番茄", "amount": "2个", "weight": "300克"},
-      {"name": "金针菇", "amount": "100克", "weight": "100克"},
-      {"name": "葱", "amount": "1根", "weight": "10克"},
-      {"name": "姜", "amount": "3片", "weight": "10克"}
+      {
+        "name": "龙利鱼",
+        "amount": "300克",
+        "weight": "300克"
+      },
+      {
+        "name": "番茄",
+        "amount": "2个",
+        "weight": "300克"
+      },
+      {
+        "name": "金针菇",
+        "amount": "100克",
+        "weight": "100克"
+      },
+      {
+        "name": "葱",
+        "amount": "1根",
+        "weight": "10克"
+      },
+      {
+        "name": "姜",
+        "amount": "3片",
+        "weight": "10克"
+      }
     ],
     "seasonings": [
-      {"name": "橄榄油", "amount": "1汤勺", "weight": "10毫升"},
-      {"name": "番茄酱", "amount": "1汤勺", "weight": "15克"},
-      {"name": "盐", "amount": "1/2茶勺", "weight": "3克"},
-      {"name": "黑胡椒", "amount": "适量", "weight": "2克"},
-      {"name": "料酒", "amount": "1汤勺", "weight": "10毫升"}
+      {
+        "name": "橄榄油",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      },
+      {
+        "name": "番茄酱",
+        "amount": "1汤勺",
+        "weight": "15克"
+      },
+      {
+        "name": "盐",
+        "amount": "1/2茶勺",
+        "weight": "3克"
+      },
+      {
+        "name": "黑胡椒",
+        "amount": "适量",
+        "weight": "2克"
+      },
+      {
+        "name": "料酒",
+        "amount": "1汤勺",
+        "weight": "10毫升"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "龙利鱼洗净，切成小块，用料酒、盐和黑胡椒腌制10分钟。"},
-      {"step": 2, "description": "番茄洗净，用开水烫一下去皮，切成小块。"},
-      {"step": 3, "description": "金针菇去根洗净，葱切葱花。"},
-      {"step": 4, "description": "锅中倒入橄榄油，放入番茄块翻炒出汁。"},
-      {"step": 5, "description": "加入番茄酱和适量清水，煮开后放入金针菇。"},
-      {"step": 6, "description": "放入龙利鱼块，小火煮3-4分钟至鱼肉熟透。"},
-      {"step": 7, "description": "加入盐调味，撒上葱花即可出锅。"}
+      {
+        "step": 1,
+        "description": "龙利鱼洗净，切成小块，用料酒、盐和黑胡椒腌制10分钟。"
+      },
+      {
+        "step": 2,
+        "description": "番茄洗净，用开水烫一下去皮，切成小块。"
+      },
+      {
+        "step": 3,
+        "description": "金针菇去根洗净，葱切葱花。"
+      },
+      {
+        "step": 4,
+        "description": "锅中倒入橄榄油，放入番茄块翻炒出汁。"
+      },
+      {
+        "step": 5,
+        "description": "加入番茄酱和适量清水，煮开后放入金针菇。"
+      },
+      {
+        "step": 6,
+        "description": "放入龙利鱼块，小火煮3-4分钟至鱼肉熟透。"
+      },
+      {
+        "step": 7,
+        "description": "加入盐调味，撒上葱花即可出锅。"
+      }
     ],
     "cookingTime": "20分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["龙利鱼肉质细嫩，不要煮太久。", "番茄要去皮，口感更好。", "龙利鱼无刺，适合老人和小孩食用。"]
+    "tips": [
+      "龙利鱼肉质细嫩，不要煮太久。",
+      "番茄要去皮，口感更好。",
+      "龙利鱼无刺，适合老人和小孩食用。"
+    ],
+    "nutrition": {
+      "calories": 70,
+      "protein": 10.0,
+      "fat": 1.5,
+      "carbs": 4.0
+    }
   },
   {
     "id": 40,
@@ -1227,29 +3768,93 @@
     "category": "减脂餐",
     "description": "蔬菜鸡肉汤是一道低卡暖身的减脂汤品，鸡肉嫩滑，蔬菜丰富，饱腹感强。",
     "ingredients": [
-      {"name": "鸡胸肉", "amount": "150克", "weight": "150克"},
-      {"name": "土豆", "amount": "1个", "weight": "150克"},
-      {"name": "胡萝卜", "amount": "1根", "weight": "100克"},
-      {"name": "洋葱", "amount": "半个", "weight": "80克"},
-      {"name": "芹菜", "amount": "2根", "weight": "50克"}
+      {
+        "name": "鸡胸肉",
+        "amount": "150克",
+        "weight": "150克"
+      },
+      {
+        "name": "土豆",
+        "amount": "1个",
+        "weight": "150克"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": "1根",
+        "weight": "100克"
+      },
+      {
+        "name": "洋葱",
+        "amount": "半个",
+        "weight": "80克"
+      },
+      {
+        "name": "芹菜",
+        "amount": "2根",
+        "weight": "50克"
+      }
     ],
     "seasonings": [
-      {"name": "盐", "amount": "1茶勺", "weight": "5克"},
-      {"name": "黑胡椒", "amount": "1/2茶勺", "weight": "2克"},
-      {"name": "鸡精", "amount": "少许", "weight": "2克"},
-      {"name": "橄榄油", "amount": "1茶勺", "weight": "5毫升"}
+      {
+        "name": "盐",
+        "amount": "1茶勺",
+        "weight": "5克"
+      },
+      {
+        "name": "黑胡椒",
+        "amount": "1/2茶勺",
+        "weight": "2克"
+      },
+      {
+        "name": "鸡精",
+        "amount": "少许",
+        "weight": "2克"
+      },
+      {
+        "name": "橄榄油",
+        "amount": "1茶勺",
+        "weight": "5毫升"
+      }
     ],
     "steps": [
-      {"step": 1, "description": "鸡胸肉洗净切小块，用盐和黑胡椒腌制10分钟。"},
-      {"step": 2, "description": "土豆、胡萝卜去皮切块，洋葱切丝，芹菜切段。"},
-      {"step": 3, "description": "锅中加入适量清水，放入鸡胸肉，大火煮开后撇去浮沫。"},
-      {"step": 4, "description": "转小火煮10分钟，放入土豆和胡萝卜。"},
-      {"step": 5, "description": "继续煮10分钟，放入洋葱和芹菜。"},
-      {"step": 6, "description": "再煮5分钟，加入盐和鸡精调味，淋上少许橄榄油即可。"}
+      {
+        "step": 1,
+        "description": "鸡胸肉洗净切小块，用盐和黑胡椒腌制10分钟。"
+      },
+      {
+        "step": 2,
+        "description": "土豆、胡萝卜去皮切块，洋葱切丝，芹菜切段。"
+      },
+      {
+        "step": 3,
+        "description": "锅中加入适量清水，放入鸡胸肉，大火煮开后撇去浮沫。"
+      },
+      {
+        "step": 4,
+        "description": "转小火煮10分钟，放入土豆和胡萝卜。"
+      },
+      {
+        "step": 5,
+        "description": "继续煮10分钟，放入洋葱和芹菜。"
+      },
+      {
+        "step": 6,
+        "description": "再煮5分钟，加入盐和鸡精调味，淋上少许橄榄油即可。"
+      }
     ],
     "cookingTime": "35分钟",
     "difficulty": "简单",
     "servings": "2人份",
-    "tips": ["蔬菜可以根据季节和个人喜好调整。", "鸡胸肉要冷水下锅，煮出来更嫩。", "可以加入糙米或藜麦做成汤饭。"]
+    "tips": [
+      "蔬菜可以根据季节和个人喜好调整。",
+      "鸡胸肉要冷水下锅，煮出来更嫩。",
+      "可以加入糙米或藜麦做成汤饭。"
+    ],
+    "nutrition": {
+      "calories": 55,
+      "protein": 8.0,
+      "fat": 1.0,
+      "carbs": 4.0
+    }
   }
 ]
