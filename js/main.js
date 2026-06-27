@@ -8,26 +8,24 @@ var searchButton = document.querySelector('.search-box button');
 var API = 'http://localhost:5000/api';
 var STORAGE_KEY = 'caipu_recipes_data';
 
-var IMG_BASE = 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image';
-
 function recipeImgUrl(name) {
-    return IMG_BASE + '?prompt=' + encodeURIComponent(name + ' Chinese food dish on plate') + '&image_size=square';
+    return 'https://source.unsplash.com/400x300/?' + encodeURIComponent(name) + ',food,cuisine';
 }
 
 function recipeHeaderImgUrl(name) {
-    return IMG_BASE + '?prompt=' + encodeURIComponent(name + ' Chinese food dish beautiful presentation') + '&image_size=landscape_16_9';
+    return 'https://source.unsplash.com/800x300/?' + encodeURIComponent(name) + ',food,cuisine';
 }
 
-function stepImgUrl(name, num) {
-    return IMG_BASE + '?prompt=' + encodeURIComponent('step ' + num + ' cooking ' + name) + '&image_size=square';
+function stepImgUrl(num) {
+    return 'https://source.unsplash.com/120x120/?cooking,step' + num;
 }
 
-function imgFallback(el, text) {
-    el.onerror = function() {
-        this.onerror = null;
-        var color = '#8899aa';
-        this.outerHTML = '<div style="width:' + (el.width || '100%') + ';height:' + (el.height || '100%') + ';background:linear-gradient(135deg,' + color + ',#667);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.7);font-size:14px">' + text + '</div>';
-    };
+function imgAlt(name) {
+    return 'https://via.placeholder.com/400x300/f8f9fa/6c757d?text=' + encodeURIComponent(name);
+}
+
+function headerImgAlt(name) {
+    return 'https://via.placeholder.com/800x300/ff6b6b/ffffff?text=' + encodeURIComponent(name);
 }
 
 function loadRecipes() {
@@ -66,7 +64,7 @@ function displayRecipes(recipesToDisplay) {
         if (recipe.nutrition) {
             nutritionHtml = '<div class="recipe-nutrition"><span class="nutrition-tag cal"><i class="fas fa-fire"></i> ' + recipe.nutrition.calories + 'kcal</span><span class="nutrition-tag carb"><i class="fas fa-bread-slice"></i> ' + recipe.nutrition.carbs + 'g</span><span class="nutrition-tag protein"><i class="fas fa-drumstick-bite"></i> ' + recipe.nutrition.protein + 'g</span><span class="nutrition-tag fat"><i class="fas fa-oil-can"></i> ' + recipe.nutrition.fat + 'g</span></div>';
         }
-        recipeCard.innerHTML = '<div class="recipe-image"><img src="' + recipeImgUrl(recipe.name) + '" alt="' + recipe.name + '" onerror="this.onerror=null;this.parentElement.style.background=\'linear-gradient(135deg,#8899aa,#667)\';this.parentElement.innerHTML+=\'<div style=\\\'color:rgba(255,255,255,0.7);font-size:14px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)\\\'>' + recipe.name + '</div>\'"></div><div class="recipe-info"><span class="recipe-category">' + recipe.category + '</span><h4 class="recipe-title">' + recipe.name + '</h4><p class="recipe-desc">' + recipe.description + '</p><div class="recipe-meta"><span><i class="fas fa-clock"></i> ' + recipe.cookingTime + '</span><span><i class="fas fa-signal"></i> ' + recipe.difficulty + '</span><span><i class="fas fa-users"></i> ' + recipe.servings + '</span></div>' + nutritionHtml + '</div>';
+        recipeCard.innerHTML = '<div class="recipe-image"><img src="' + recipeImgUrl(recipe.name) + '" alt="' + recipe.name + '" onerror="this.onerror=null;this.src=\'' + imgAlt(recipe.name) + '\'"></div><div class="recipe-info"><span class="recipe-category">' + recipe.category + '</span><h4 class="recipe-title">' + recipe.name + '</h4><p class="recipe-desc">' + recipe.description + '</p><div class="recipe-meta"><span><i class="fas fa-clock"></i> ' + recipe.cookingTime + '</span><span><i class="fas fa-signal"></i> ' + recipe.difficulty + '</span><span><i class="fas fa-users"></i> ' + recipe.servings + '</span></div>' + nutritionHtml + '</div>';
         recipeCard.addEventListener('click', function() { openRecipeDetail(recipe); });
         recipeGrid.appendChild(recipeCard);
     });
@@ -77,10 +75,10 @@ function openRecipeDetail(recipe) {
     if (recipe.nutrition) {
         nutritionSection = '<div class="recipe-section nutrition-section"><h3><i class="fas fa-chart-pie"></i> 营养成分（每100克）</h3><div class="nutrition-grid"><div class="nutrition-item calories"><div class="nutrition-value">' + recipe.nutrition.calories + '</div><div class="nutrition-label">千卡(kcal)</div></div><div class="nutrition-item carbs"><div class="nutrition-value">' + recipe.nutrition.carbs + '<span>g</span></div><div class="nutrition-label">碳水化合物</div></div><div class="nutrition-item protein"><div class="nutrition-value">' + recipe.nutrition.protein + '<span>g</span></div><div class="nutrition-label">蛋白质</div></div><div class="nutrition-item fat"><div class="nutrition-value">' + recipe.nutrition.fat + '<span>g</span></div><div class="nutrition-label">脂肪</div></div></div></div>';
     }
-    var headerImgHtml = '<img class="recipe-header-image" src="' + recipeHeaderImgUrl(recipe.name) + '" alt="' + recipe.name + '" onerror="this.onerror=null;this.src=\'https://via.placeholder.com/800x300/ff6b6b/ffffff?text=' + encodeURIComponent(recipe.name) + '\'">';
+    var headerImgHtml = '<img class="recipe-header-image" src="' + recipeHeaderImgUrl(recipe.name) + '" alt="' + recipe.name + '" onerror="this.onerror=null;this.src=\'' + headerImgAlt(recipe.name) + '\'">';
 
     var stepsHtml = recipe.steps.map(function(step) {
-        return '<div class="step-item"><div class="step-number">' + step.step + '</div><div class="step-content"><p class="step-description">' + step.description + '</p></div><img class="step-image" src="' + stepImgUrl(recipe.name, step.step) + '" alt="步骤' + step.step + '" onerror="this.onerror=null;this.style.display=\'none\'" loading="lazy"></div>';
+        return '<div class="step-item"><div class="step-number">' + step.step + '</div><div class="step-content"><p class="step-description">' + step.description + '</p></div><img class="step-image" src="' + stepImgUrl(step.step) + '" alt="步骤' + step.step + '" onerror="this.onerror=null;this.style.display=\'none\'" loading="lazy"></div>';
     }).join('');
 
     var modalContent = '<div class="recipe-detail"><div class="recipe-header">' + headerImgHtml + '<div class="recipe-header-overlay"><span class="recipe-category">' + recipe.category + '</span><h2>' + recipe.name + '</h2><p class="recipe-desc">' + recipe.description + '</p></div></div><div class="recipe-content"><div class="recipe-stats"><div class="stat-item"><i class="fas fa-clock"></i><div class="stat-label">烹饪时间</div><div class="stat-value">' + recipe.cookingTime + '</div></div><div class="stat-item"><i class="fas fa-signal"></i><div class="stat-label">难度</div><div class="stat-value">' + recipe.difficulty + '</div></div><div class="stat-item"><i class="fas fa-users"></i><div class="stat-label">人份</div><div class="stat-value">' + recipe.servings + '</div></div></div>' + nutritionSection + '<div class="recipe-section"><h3><i class="fas fa-carrot"></i> 食材清单</h3><div class="ingredients-grid">' + recipe.ingredients.map(function(i) { return '<div class="ingredient-item"><span class="ingredient-name">' + i.name + '</span><span class="ingredient-amount">' + i.amount + ' (' + i.weight + ')</span></div>'; }).join('') + '</div></div><div class="recipe-section"><h3><i class="fas fa-pepper-hot"></i> 调料用量</h3><div class="seasonings-grid">' + recipe.seasonings.map(function(s) { return '<div class="seasoning-item"><span class="seasoning-name">' + s.name + '</span><div class="seasoning-detail"><span class="seasoning-amount">' + s.amount + '</span><span class="seasoning-weight">' + s.weight + '</span></div></div>'; }).join('') + '</div></div><div class="recipe-section"><h3><i class="fas fa-list-ol"></i> 制作步骤</h3><div class="steps-list">' + stepsHtml + '</div></div>' + (recipe.tips && recipe.tips.length > 0 ? '<div class="recipe-section"><h3><i class="fas fa-lightbulb"></i> 烹饪小贴士</h3><div class="tips-list">' + recipe.tips.map(function(t) { return '<div class="tip-item"><i class="fas fa-exclamation-circle"></i><p>' + t + '</p></div>'; }).join('') + '</div></div>' : '') + '</div></div>';
