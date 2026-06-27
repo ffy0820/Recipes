@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后台管理 - 家常菜谱</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="login-overlay">
+        <div class="login-box">
+            <i class="fas fa-utensils login-icon"></i>
+            <h2>后台管理系统</h2>
+            <p>请输入密码以继续</p>
+            <input type="password" id="login-password" placeholder="输入密码" autofocus>
+            <button onclick="login()">登 录</button>
+            <div id="login-error"></div>
+        </div>
+    </div>
+
+    <div id="app" style="display:none;">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <i class="fas fa-utensils"></i>
+                <span>菜谱管理</span>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="active" data-page="list"><i class="fas fa-list"></i> 菜谱列表</a>
+                <a href="#" data-page="add"><i class="fas fa-plus-circle"></i> 新增菜谱</a>
+                <a href="#" data-page="export"><i class="fas fa-download"></i> 导出数据</a>
+                <a href="../index.html" target="_blank"><i class="fas fa-external-link-alt"></i> 前台预览</a>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="recipe-count">共 <strong id="total-count">0</strong> 道菜谱</div>
+                <button class="btn-logout" onclick="logout()"><i class="fas fa-sign-out-alt"></i> 退出</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="topbar">
+                <h1 id="page-title">菜谱列表</h1>
+                <div class="topbar-actions">
+                    <input type="text" id="search-input" placeholder="搜索菜谱..." oninput="handleSearch()">
+                    <button class="btn btn-primary" onclick="switchPage('add')"><i class="fas fa-plus"></i> 新增</button>
+                </div>
+            </header>
+
+            <div class="content-area" id="content-area"></div>
+        </main>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

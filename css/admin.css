@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #ff6b6b;
+    --primary-dark: #ff5252;
+    --sidebar-bg: #1e1e2d;
+    --sidebar-hover: #2a2a3d;
+    --card-bg: #ffffff;
+    --bg: #f1f3f6;
+    --text: #333;
+    --text-light: #888;
+    --border: #e0e0e0;
+    --danger: #e74c3c;
+    --success: #2ecc71;
+    --warning: #f39c12;
+    --shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    background: var(--bg);
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#login-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.login-box {
+    background: white;
+    padding: 50px 40px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    width: 400px;
+}
+
+.login-icon {
+    font-size: 48px;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.login-box h2 {
+    font-size: 26px;
+    margin-bottom: 8px;
+    color: var(--text);
+}
+
+.login-box p {
+    color: var(--text-light);
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.login-box input:focus {
+    border-color: var(--primary);
+}
+
+.login-box button {
+    width: 100%;
+    padding: 14px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-box button:hover {
+    background: var(--primary-dark);
+}
+
+#login-error {
+    color: var(--danger);
+    margin-top: 12px;
+    font-size: 13px;
+    height: 20px;
+}
+
+.sidebar {
+    width: 240px;
+    min-width: 240px;
+    background: var(--sidebar-bg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sidebar-header {
+    padding: 24px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.sidebar-header i { color: var(--primary); }
+
+.sidebar-nav {
+    flex: 1;
+    padding: 15px 0;
+}
+
+.sidebar-nav a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 24px;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a.active {
+    background: var(--sidebar-hover);
+    color: white;
+    border-left-color: var(--primary);
+}
+
+.sidebar-nav a i { width: 18px; text-align: center; }
+
+.sidebar-footer {
+    padding: 20px 24px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.recipe-count {
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 12px;
+}
+
+.recipe-count strong {
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.btn-logout {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.7);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn-logout:hover { background: rgba(231,76,60,0.3); color: var(--danger); }
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.topbar {
+    background: white;
+    padding: 20px 30px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+
+.topbar h1 { font-size: 20px; font-weight: 600; }
+
+.topbar-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.topbar-actions input {
+    padding: 10px 16px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    width: 220px;
+    transition: 0.3s;
+}
+
+.topbar-actions input:focus { border-color: var(--primary); }
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary { background: var(--primary); color: white; }
+.btn-primary:hover { background: var(--primary-dark); }
+.btn-secondary { background: #f0f0f0; color: #555; }
+.btn-secondary:hover { background: #e0e0e0; }
+.btn-danger { background: var(--danger); color: white; }
+.btn-danger:hover { background: #c0392b; }
+.btn-success { background: var(--success); color: white; }
+.btn-success:hover { background: #27ae60; }
+.btn-sm { padding: 6px 12px; font-size: 12px; }
+
+.btn-group { display: flex; gap: 8px; }
+
+.content-area {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px 30px;
+}
+
+/* 菜谱列表 */
+.recipe-table {
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.table-header {
+    display: grid;
+    grid-template-columns: 80px 1fr 120px 100px 100px 120px 120px;
+    gap: 0;
+    background: #f8f9fa;
+    padding: 14px 20px;
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--text-light);
+    border-bottom: 1px solid var(--border);
+}
+
+.table-row {
+    display: grid;
+    grid-template-columns: 80px 1fr 120px 100px 100px 120px 120px;
+    gap: 0;
+    padding: 14px 20px;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.table-row:hover { background: #fafafa; }
+.table-row:last-child { border-bottom: none; }
+
+.table-row .col-name { font-weight: 500; }
+
+.table-row .col-actions {
+    display: flex;
+    gap: 6px;
+}
+
+.category-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cat-家常菜 { background: #e8f5e9; color: #2e7d32; }
+.cat-川菜 { background: #fce4ec; color: #c62828; }
+.cat-减脂餐 { background: #e3f2fd; color: #1565c0; }
+
+.table-empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-light);
+}
+
+.table-empty i { font-size: 48px; margin-bottom: 15px; display: block; }
+
+/* 表单 */
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: var(--primary);
+}
+
+.form-group textarea { resize: vertical; min-height: 80px; }
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+}
+
+/* 动态列表项 */
+.dynamic-list { display: flex; flex-direction: column; gap: 10px; }
+
+.dynamic-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: var(--bg);
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+
+.dynamic-item input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 13px;
+    outline: none;
+}
+
+.dynamic-item input:focus { border-color: var(--primary); }
+
+.dynamic-item .btn-remove {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    background: #fee;
+    color: var(--danger);
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    flex-shrink: 0;
+}
+
+.dynamic-item .btn-remove:hover { background: var(--danger); color: white; }
+
+.btn-add-item {
+    padding: 10px;
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text-light);
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.btn-add-item:hover { border-color: var(--primary); color: var(--primary); }
+
+/* 步骤列表 */
+.step-item-admin {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    background: var(--bg);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.step-num {
+    width: 32px;
+    height: 32px;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.step-item-admin textarea {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 13px;
+    outline: none;
+    resize: vertical;
+    font-family: inherit;
+    min-height: 50px;
+}
+
+.step-item-admin textarea:focus { border-color: var(--primary); }
+
+.step-item-admin .btn-remove {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background: #fee;
+    color: var(--danger);
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    flex-shrink: 0;
+}
+
+.step-item-admin .btn-remove:hover { background: var(--danger); color: white; }
+
+/* 营养表单 */
+.nutrition-grid-admin {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.nutrition-field { text-align: center; }
+
+.nutrition-field label {
+    font-size: 12px;
+    color: var(--text-light);
+    display: block;
+    margin-bottom: 4px;
+}
+
+.nutrition-field input {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+/* 导出页 */
+.export-area {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.export-area i {
+    font-size: 64px;
+    color: var(--primary);
+    margin-bottom: 20px;
+    display: block;
+}
+
+.export-area p {
+    color: var(--text-light);
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.export-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+/* Toast */
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 14px 24px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 10000;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.toast.success { background: var(--success); }
+.toast.error { background: var(--danger); }
+.toast.info { background: #3498db; }
+
+/* 预览弹窗 */
+.preview-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 9000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-box {
+    background: white;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.preview-header {
+    padding: 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preview-header h3 { font-size: 18px; }
+
+.preview-content { padding: 20px; }
+
+.preview-content h4 {
+    font-size: 14px;
+    color: var(--text-light);
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.preview-content h4:first-child { margin-top: 0; }
+
+.preview-content p { font-size: 14px; margin-bottom: 4px; }
+
+/* 确认弹窗 */
+.confirm-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 9000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirm-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    max-width: 400px;
+}
+
+.confirm-box h4 { margin-bottom: 12px; }
+.confirm-box p { color: var(--text-light); margin-bottom: 20px; font-size: 14px; }
+
+@media (max-width: 768px) {
+    .sidebar { width: 60px; min-width: 60px; }
+    .sidebar-header span,
+    .sidebar-nav a span,
+    .sidebar-nav a:not(.active):not(:hover) { display: none; }
+    .table-header, .table-row { grid-template-columns: 60px 1fr 80px 90px; }
+    .table-header .col-hide, .table-row .col-hide { display: none; }
+    .nutrition-grid-admin { grid-template-columns: repeat(2, 1fr); }
+    .topbar-actions { flex-wrap: wrap; }
+}
