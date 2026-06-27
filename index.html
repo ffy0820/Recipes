@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家常菜谱大全 - 您的私人厨师</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-utensils"></i>
+                <h1>家常菜谱</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" class="active">首页</a></li>
+                    <li><a href="#categories">菜系分类</a></li>
+                    <li><a href="#popular">热门菜谱</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                </ul>
+            </nav>
+            <div class="search-box">
+                <input type="text" placeholder="搜索菜谱...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="container">
+            <h2>家常美味，简单易做</h2>
+            <p>收集各种家常菜谱，详细教程，精准调料用量，让您轻松做出美味佳肴</p>
+            <a href="#popular" class="btn">开始探索</a>
+        </div>
+    </section>
+
+    <!-- 菜系分类 -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h3>菜系分类</h3>
+            <div class="category-grid">
+                <div class="category-card" onclick="filterByCategory('家常菜')">
+                    <div class="category-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h4>家常菜</h4>
+                    <p>简单易做的家庭美味</p>
+                </div>
+                <div class="category-card" onclick="filterByCategory('川菜')">
+                    <div class="category-icon">
+                        <i class="fas fa-pepper-hot"></i>
+                    </div>
+                    <h4>川菜</h4>
+                    <p>麻辣鲜香，回味无穷</p>
+                </div>
+                <div class="category-card" onclick="filterByCategory('减脂餐')">
+                    <div class="category-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h4>减脂餐</h4>
+                    <p>低卡健康，美味不减</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 热门菜谱 -->
+    <section id="popular" class="popular">
+        <div class="container">
+            <h3>热门菜谱 <button class="btn-show-all" onclick="showAllRecipes()">显示全部</button></h3>
+            <div class="recipe-grid">
+                <!-- 菜谱卡片将通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>关于我们</h3>
+                    <p>我们致力于收集和整理各种家常菜谱，让每个人都能轻松做出美味佳肴。</p>
+                    <p>我们的菜谱不仅提供详细的制作步骤，还特别标注了调料的用量，既有精确的克数，也有生活化的计量单位（如一汤勺、一茶勺等），让您做菜时更加得心应手。</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-balance-scale"></i>
+                            <span>精准用量</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-list-ol"></i>
+                            <span>详细步骤</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>省时省力</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=A%20beautiful%20wooden%20kitchen%20table%20with%20fresh%20vegetables%20and%20cooking%20utensils%2C%20warm%20lighting%2C%20home%20cooking%20atmosphere&image_size=landscape_4_3" alt="关于我们">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>家常菜谱</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#">隐私政策</a>
+                    <a href="#">使用条款</a>
+                    <a href="#">联系我们</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-weixin"></i></a>
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 家常菜谱大全 - 您的私人厨师</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 菜谱详情模态框 -->
+    <div class="modal" id="recipeModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <!-- 菜谱详情内容将通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
